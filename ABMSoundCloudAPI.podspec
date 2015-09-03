@@ -14,13 +14,9 @@ Since SoundCloud decided not to maintain any longer its library for iOS I dicede
 * Follow user given user ID
                        DESC
   s.homepage         = "https://github.com/andresbrun/ABMSoundCloudAPI"
-  s.screenshots      = "https://raw.githubusercontent.com/andresbrun/ABMSoundCloudAPI/master/Example/screenshots/screenshot_1.png",
-"https://raw.githubusercontent.com/andresbrun/ABMSoundCloudAPI/master/Example/screenshots/screenshot_2.png",
-"https://raw.githubusercontent.com/andresbrun/ABMSoundCloudAPI/master/Example/screenshots/screenshot_3.png",
-"https://raw.githubusercontent.com/andresbrun/ABMSoundCloudAPI/master/Example/screenshots/screenshot_4.png"
   s.license          = 'MIT'
   s.author           = { "Andres Brun Moreno" => "andresbrunmoreno@gmail.com" }
-  s.source           = { :git => "https://github.com/andresbrun/ABMSoundCloudAPI.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/briandeweese/ABMSoundCloudAPI.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/andrewsBrun'
 
   s.platform     = :ios, '7.0'
