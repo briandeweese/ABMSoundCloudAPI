@@ -7,1324 +7,1058 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0100DA3626C6F0E557181E15 /* NSUserDefaults+SoundCloudToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 5901B108D84855D4B262EDF6 /* NSUserDefaults+SoundCloudToken.h */; };
-		02F6F8C40E9AA4F0480403A9 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D5A44EAE6902494727B40CD9 /* AFNetworking.h */; };
-		049A1FBF10C2AD1C223BFAB6 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAA0933E10F06A4CBE738BA /* UIRefreshControl+AFNetworking.h */; };
-		04B4D3071EC3E652D9541E03 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 977CE839E0A4BD5D27D49DEC /* UIButton+AFNetworking.m */; };
-		05C40B08389FC6AA242ACF00 /* Pods-Tests-AFOAuth2Manager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AC8C2C37F1665C971F7A7C /* Pods-Tests-AFOAuth2Manager-dummy.m */; };
-		06B4D324291F70B783004DAF /* SoundCloudLoginWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEBD5FC9907AAE131B6AA19 /* SoundCloudLoginWebViewController.m */; };
-		076FE36F588D40882EC1354C /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 922D28E9D075B16F85559138 /* UIProgressView+AFNetworking.h */; };
-		08F9DC24C5CD19048036AB6A /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7930A5092CEA9C0316AC25E4 /* UIRefreshControl+AFNetworking.m */; };
-		0904A210AEA89A50A94354D3 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EA360835F9757A463A4C8760 /* UIProgressView+AFNetworking.m */; };
-		0C0A8E6CC46123E5E49EDDB5 /* AFHTTPRequestSerializer+OAuth2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB6369FCC2B62D7F936A78F /* AFHTTPRequestSerializer+OAuth2.m */; };
-		0CFF77E29362410E3FCB65A9 /* SoundCloudPort.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ACF0CAFE37BA5F6746BA988 /* SoundCloudPort.h */; };
-		0D5C17B86DC4693777AE0586 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB481521D9FECB167CC219 /* AFURLSessionManager.m */; };
-		0DBF0780BCA3775F95FB666E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82C9064F3F2A8DE8117679D /* Security.framework */; };
-		130212D2FDF23C33ED06EF8A /* SoundCloudLoginWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEBD5FC9907AAE131B6AA19 /* SoundCloudLoginWebViewController.m */; };
-		136406B812956D42CF18C113 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1493F5A2F07DBB785551B53D /* UIWebView+AFNetworking.h */; };
-		146A19219A83626028DE61F4 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1493F5A2F07DBB785551B53D /* UIWebView+AFNetworking.h */; };
-		172AFB60320600D47806C4D8 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = B7707BFB78F165CB735E3A2B /* AFSecurityPolicy.h */; };
-		17718C551599B0A73A59EA42 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6ED7937075439845051755 /* UIActivityIndicatorView+AFNetworking.m */; };
-		1B0B1C86F2A4E599D581D69C /* NSUserDefaults+SoundCloudToken.m in Sources */ = {isa = PBXBuildFile; fileRef = A76125C8DFF03C1A825909E4 /* NSUserDefaults+SoundCloudToken.m */; };
-		1FBB3EC2CA1FAFB4D562AA44 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = BD481611629BE67C2307D5B2 /* UIImageView+AFNetworking.h */; };
-		248E72C3ECD35C4D2F5F2BBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C2A38D582114B488990919 /* Foundation.framework */; };
-		27FC03D7198DA7F28589CE66 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF800AA1EECF57A499A7AAF /* AFHTTPSessionManager.m */; };
-		28A62474DD99FACA54EFA09A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C2A38D582114B488990919 /* Foundation.framework */; };
-		2930D4AA72771CEB42DEA828 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8D8BAA3547F0CECFCE228E /* MobileCoreServices.framework */; };
-		2AE6127D679653A5CB281A48 /* NSError+APISoundCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = AD006A69C02D9A975B4D2288 /* NSError+APISoundCloud.h */; };
-		2B426161B1D90F74FA0C4363 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C4C5F42A69E336575AAAF4 /* AFURLConnectionOperation.m */; };
-		2F234BFF91A211890C4FA407 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C2A38D582114B488990919 /* Foundation.framework */; };
-		36A450811D817C7D2EB7CC92 /* AFHTTPRequestSerializer+OAuth2.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0EFACCCCBD1FC4DABC6D29 /* AFHTTPRequestSerializer+OAuth2.h */; };
-		3A9BDC9BC3DF18376F613391 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C486BE623BA41D08F5BF19E /* UIImageView+AFNetworking.m */; };
-		3D123F54882955FE3381A65E /* Pods-ABMSoundCloudAPI-AFOAuth2Manager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB0240E25554632A20D2927 /* Pods-ABMSoundCloudAPI-AFOAuth2Manager-dummy.m */; };
-		3E8CE60A40ED737957C71812 /* AFOAuth2Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFCF34B1A5F6A74A5C29D64 /* AFOAuth2Manager.m */; };
-		40C681300F3F6605BBF5AAE8 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 977CE839E0A4BD5D27D49DEC /* UIButton+AFNetworking.m */; };
-		4321DB82E807E174D0801E0F /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 58807A0C405280640C842615 /* UIWebView+AFNetworking.m */; };
-		44A0C8618712FB122D01C267 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CA853613F7F1392970E68D74 /* UIButton+AFNetworking.h */; };
-		466F360C28CCF65759D75580 /* Pods-ABMSoundCloudAPI-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC14C1AEC077A19C464C74 /* Pods-ABMSoundCloudAPI-AFNetworking-dummy.m */; };
-		4A3C90F84C91EA9D6B98035E /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF800AA1EECF57A499A7AAF /* AFHTTPSessionManager.m */; };
-		4B2953646E2D00960BF07258 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE57640DB57C5A28EA4373 /* AFNetworkActivityIndicatorManager.m */; };
-		4C2C154E169CD1EBBE6E247E /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F14B7047BE8E5B82C5508CC /* AFURLRequestSerialization.h */; };
-		4F34085F459B8CEADEE8A796 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE57640DB57C5A28EA4373 /* AFNetworkActivityIndicatorManager.m */; };
-		4F5D6EEAA0D0A10A99D2D0E8 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C4C5F42A69E336575AAAF4 /* AFURLConnectionOperation.m */; };
-		55717799880494CD8912A02A /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C486BE623BA41D08F5BF19E /* UIImageView+AFNetworking.m */; };
-		55FA7B5EC2602F360365037F /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A068868694F8BF7DFB72F4C /* AFNetworkReachabilityManager.m */; };
-		5689E8278F85887469FA9342 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DEBECC7EBB283BC1E822DC0F /* AFNetworkReachabilityManager.h */; };
-		56B4E81A9F6A1BAF481B1633 /* NSUserDefaults+SoundCloudToken.m in Sources */ = {isa = PBXBuildFile; fileRef = A76125C8DFF03C1A825909E4 /* NSUserDefaults+SoundCloudToken.m */; };
-		5739959396DFA5D09446FDD1 /* SoundCloudPort.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ACF0CAFE37BA5F6746BA988 /* SoundCloudPort.h */; };
-		5D15394B78D58CAD2C1A8C51 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D1B7D0B6C9CE48D732E669 /* AFHTTPRequestOperation.m */; };
-		5D83B9C1C5B73E2BD337B731 /* AFOAuth2Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFCF34B1A5F6A74A5C29D64 /* AFOAuth2Manager.m */; };
-		63A5B71D291CC00B99127756 /* Pods-Tests-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3C6A455A0A292458880E54 /* Pods-Tests-AFNetworking-dummy.m */; };
-		67A6A6D71326B95D472E7A4E /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 664D2A32F924DBE5C3CE0EE9 /* AFURLRequestSerialization.m */; };
-		6BCBF0E6657BDA192C1FF574 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6075A16112246E368AC0A8AC /* AFHTTPRequestOperationManager.h */; };
-		6EA0B09C7960A9559A88ED49 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0BC31B3D62114477D82B30 /* UIAlertView+AFNetworking.h */; };
-		73C7CFB865D337D2209BF860 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6075A16112246E368AC0A8AC /* AFHTTPRequestOperationManager.h */; };
-		77D8E278E6802578246E043E /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 804E159C83EB930A73D763E4 /* AFHTTPRequestOperationManager.m */; };
-		77F7BB0CF9DBF4ACE720F85D /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FAA0933E10F06A4CBE738BA /* UIRefreshControl+AFNetworking.h */; };
-		79D8FB9C71D9D44BFC196C22 /* NSUserDefaults+SoundCloudToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 5901B108D84855D4B262EDF6 /* NSUserDefaults+SoundCloudToken.h */; };
-		7A342B6A7A1EEFA8309D1059 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 876C31F519B2432FDF301F7D /* AFURLResponseSerialization.m */; };
-		7B9560C852A98DA6119814B2 /* AFHTTPRequestSerializer+OAuth2.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0EFACCCCBD1FC4DABC6D29 /* AFHTTPRequestSerializer+OAuth2.h */; };
-		7C79774659A2B073004E6694 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8D8BAA3547F0CECFCE228E /* MobileCoreServices.framework */; };
-		7D8BC0A2097835DD50711E4A /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 704F60C0725F39212C2C7FB3 /* Pods-Tests-dummy.m */; };
-		7F2CC4D326E56732E0621B5E /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EA360835F9757A463A4C8760 /* UIProgressView+AFNetworking.m */; };
-		83BDB9414BF19AB9991FC9F1 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 58807A0C405280640C842615 /* UIWebView+AFNetworking.m */; };
-		83E419D2866D40262D95BD64 /* SoundCloudPort.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF1B896529EDA8E78A58FE2 /* SoundCloudPort.m */; };
-		83ED309F3C5B42E6A82E77F7 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 51D5C1DD2A87B536C279E16D /* AFURLResponseSerialization.h */; };
-		851EB86245023375E87C6275 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 51D5C1DD2A87B536C279E16D /* AFURLResponseSerialization.h */; };
-		892F6CB92BF3ED106016C5F5 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A068868694F8BF7DFB72F4C /* AFNetworkReachabilityManager.m */; };
-		93D1307388332134959A00B0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82C9064F3F2A8DE8117679D /* Security.framework */; };
-		9468008B37E4ABD466986E36 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BDDC14C414716F2FD63E3FC /* AFHTTPRequestOperation.h */; };
-		95F11E056E8A8CEE0181D04B /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9687159D1C55EBC4AF5526F8 /* AFHTTPSessionManager.h */; };
-		99027C72894681EF3EC07E41 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F14B7047BE8E5B82C5508CC /* AFURLRequestSerialization.h */; };
-		9D0E0A580AF8E6F74C6A3433 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = BD481611629BE67C2307D5B2 /* UIImageView+AFNetworking.h */; };
-		9E6918847185CA02EA33A494 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C2A38D582114B488990919 /* Foundation.framework */; };
-		A1EE01D1B8832B9E3C07D5F5 /* Pods-ABMSoundCloudAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D30EBA9CA332DCE4813228BB /* Pods-ABMSoundCloudAPI-dummy.m */; };
-		A3982A98C423B952F63E5864 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DB6B36853D777F6DC5534D /* UIKit+AFNetworking.h */; };
-		A3F01502C0421572B348733C /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 774649A5CEDE39D973A1C58B /* UIAlertView+AFNetworking.m */; };
-		A539C5CDEFED4CCF316FA851 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 804E159C83EB930A73D763E4 /* AFHTTPRequestOperationManager.m */; };
-		A71B6450D876718AB4FF0E7E /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0BC31B3D62114477D82B30 /* UIAlertView+AFNetworking.h */; };
-		AD1D5FEF768B6653F6CF530F /* SoundCloudLoginWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 03882DC9F1F1C8EF6EABE550 /* SoundCloudLoginWebViewController.h */; };
-		AE1F1E37EEBA5762EC4C65E0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034928AACE10B6BFF2FC4E53 /* SystemConfiguration.framework */; };
-		AEA96F5626B2E8DACDD3B2BC /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6ED7937075439845051755 /* UIActivityIndicatorView+AFNetworking.m */; };
-		B27B95946CE367D8C2AE0BE7 /* NSError+APISoundCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = E71233AA09D4FA170297B874 /* NSError+APISoundCloud.m */; };
-		B618BFAEE4817591DB246FB3 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB481521D9FECB167CC219 /* AFURLSessionManager.m */; };
-		B64D93881E3337CE6D323F35 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = EF09D1B49069470D52F9F23A /* AFURLConnectionOperation.h */; };
-		B9EBFBC7D4EF73165FCD2A25 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CA853613F7F1392970E68D74 /* UIButton+AFNetworking.h */; };
-		BC935DB3ED2B9C39ABE7949A /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DEBECC7EBB283BC1E822DC0F /* AFNetworkReachabilityManager.h */; };
-		BD1C43C8A20802E141014AAC /* SoundCloudPort.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF1B896529EDA8E78A58FE2 /* SoundCloudPort.m */; };
-		C00B271BFDAE97E61583D096 /* AFOAuth2Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE819C733E0F78BE98CAC48 /* AFOAuth2Manager.h */; };
-		C1D901DAC58F6EEC9E53D263 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D5A44EAE6902494727B40CD9 /* AFNetworking.h */; };
-		C71950229E92EE6C2A792897 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C2A38D582114B488990919 /* Foundation.framework */; };
-		C8B6A748DBD0E398349F6988 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DB6B36853D777F6DC5534D /* UIKit+AFNetworking.h */; };
-		C91840F956F5615B1FF3B870 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034928AACE10B6BFF2FC4E53 /* SystemConfiguration.framework */; };
-		C9393AA280A2C3AAF6F609E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C2A38D582114B488990919 /* Foundation.framework */; };
-		CD885D8FFE41125E8FBCC0C6 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE3C59D069DA6286C9EA0D2 /* UIActivityIndicatorView+AFNetworking.h */; };
-		CE5762D54E68CB0410847807 /* Pods-Tests-ABMSoundCloudAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 316D750A22273444F1E8CEA0 /* Pods-Tests-ABMSoundCloudAPI-dummy.m */; };
-		CF610251B2BA838098345B38 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 59956BE5C4ACEF36FE4B96BF /* AFURLSessionManager.h */; };
-		D1D4B8B89E3A9EA2E6AA40A8 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = EF09D1B49069470D52F9F23A /* AFURLConnectionOperation.h */; };
-		D28B3DB9E8A67F503FB3EE97 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = B7707BFB78F165CB735E3A2B /* AFSecurityPolicy.h */; };
-		D30AF12B1D5E37A5337565C2 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BDDC14C414716F2FD63E3FC /* AFHTTPRequestOperation.h */; };
-		D3452A7DD03608CF6F259009 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82C9064F3F2A8DE8117679D /* Security.framework */; };
-		D436F1987B5699765391F94C /* NSError+APISoundCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = AD006A69C02D9A975B4D2288 /* NSError+APISoundCloud.h */; };
-		D66CCF3DDC3D9EDDD374BDC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C2A38D582114B488990919 /* Foundation.framework */; };
-		D962F42F257688F0FB2AB452 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC9382222F23D716CD19F5E /* AFNetworkActivityIndicatorManager.h */; };
-		D9E8E45BB39D4BFC4B683FB6 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE3C59D069DA6286C9EA0D2 /* UIActivityIndicatorView+AFNetworking.h */; };
-		DE34255A47EE1D786FD764C7 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7930A5092CEA9C0316AC25E4 /* UIRefreshControl+AFNetworking.m */; };
-		E0240A7230579FF44EA1CE52 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D1B7D0B6C9CE48D732E669 /* AFHTTPRequestOperation.m */; };
-		E265591DD896DFF1C6072DE5 /* NSError+APISoundCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = E71233AA09D4FA170297B874 /* NSError+APISoundCloud.m */; };
-		E3C22850877388FD1F864CD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C2A38D582114B488990919 /* Foundation.framework */; };
-		E3DA81B51BCF9506BDA9850C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F672874E51D7E0BC371DEBD /* CoreGraphics.framework */; };
-		E3FAB042E82B741A913EFC98 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 876C31F519B2432FDF301F7D /* AFURLResponseSerialization.m */; };
-		EB2BA8F43E042BE39FB7DF7A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82C9064F3F2A8DE8117679D /* Security.framework */; };
-		EB412E6E49803483C116EAF3 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 922D28E9D075B16F85559138 /* UIProgressView+AFNetworking.h */; };
-		ECBEE14DE2D0E3D1256374D7 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD97F0B0E653392968CFA5E /* AFSecurityPolicy.m */; };
-		EDFDA6A8BCF171B639853D0A /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 59956BE5C4ACEF36FE4B96BF /* AFURLSessionManager.h */; };
-		F36A6FB158C3D8E3A81F552E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F672874E51D7E0BC371DEBD /* CoreGraphics.framework */; };
-		F51F297456B651D5C24E98C6 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 664D2A32F924DBE5C3CE0EE9 /* AFURLRequestSerialization.m */; };
-		F5513120781F9A0C722D792A /* AFOAuth2Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE819C733E0F78BE98CAC48 /* AFOAuth2Manager.h */; };
-		F58283183FFEB4450796501F /* Pods-ABMSoundCloudAPI-ABMSoundCloudAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B15AB20F14DFB1A8580C5C0 /* Pods-ABMSoundCloudAPI-ABMSoundCloudAPI-dummy.m */; };
-		F67A2B3168A172B7BBE24225 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9687159D1C55EBC4AF5526F8 /* AFHTTPSessionManager.h */; };
-		F8A2E15AD95A169BB6FA2A02 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD97F0B0E653392968CFA5E /* AFSecurityPolicy.m */; };
-		FBC2675470560030E5BE88CF /* SoundCloudLoginWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 03882DC9F1F1C8EF6EABE550 /* SoundCloudLoginWebViewController.h */; };
-		FBE9834D4728EF89630ED35B /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 774649A5CEDE39D973A1C58B /* UIAlertView+AFNetworking.m */; };
-		FE13202D51EEAD447BC52767 /* AFHTTPRequestSerializer+OAuth2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB6369FCC2B62D7F936A78F /* AFHTTPRequestSerializer+OAuth2.m */; };
-		FFD752858EF033C26A4AF33B /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC9382222F23D716CD19F5E /* AFNetworkActivityIndicatorManager.h */; };
+		00F6AEF4B806F026EE8D8E742FD1A246 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = BF66C923CFD6CC810DEE94E8CB1FD1F5 /* UIKit+AFNetworking.h */; };
+		01060C1211634C75C09ADF7AD45BDCD0 /* ABMSoundCloudAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3909509C9B79DA45AC40A72F167D84CC /* ABMSoundCloudAPI-dummy.m */; };
+		03BE5F3F94FB72CF45577B50681E2EE6 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 526BFB74561D32A89E90176E927B849D /* AFHTTPSessionManager.h */; };
+		03E715021BAB5BE38A2B9DF430D0A770 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C2923AB69E7163DDE106F51D85C041C /* UIRefreshControl+AFNetworking.h */; };
+		0828287AA7D93C3D21BF08F0FCEBF52E /* AFOAuth2Manager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3927681B7C97FB4F164ECDE0F8614D /* AFOAuth2Manager-dummy.m */; };
+		088394DAC8E650E54E673249574D10C4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2664EA8AB3B33EE300B42645A420AC94 /* Security.framework */; };
+		13DB41019E9BE0688F191E38651E9C7F /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = DDAE8C1E63E1A00E6E2FD567B4AED97B /* AFURLResponseSerialization.h */; };
+		174BF01CD38952038DB6F8C27C32049E /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C00C29830E62C33C262B34E7F3A6F8 /* AFSecurityPolicy.m */; };
+		1E57B4D8007AD1F7AAED8BB850A4744A /* NSUserDefaults+SoundCloudToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 67337C34DFB9DCE2CAB7508C78A9A0BE /* NSUserDefaults+SoundCloudToken.h */; };
+		224E1872E51A0EA840916DCCDF345027 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFD77A8D885D818463120C9981CD444 /* UIWebView+AFNetworking.m */; };
+		2388678BDF83B8B694E38BEFBB252DD8 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DA57F545E486B8671ACAA47E69118E93 /* AFNetworkReachabilityManager.h */; };
+		2969D1651F443AABE72303E0301254BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90DB764127B3513E7C3F261274F666FB /* Foundation.framework */; };
+		2CC558CF1283B2068DF589244C88EC34 /* AFOAuth2Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86705579663A555FB62D048203497C70 /* AFOAuth2Manager.m */; };
+		3079517FC17E98FA9A1AFED43A297C0B /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F2E0653E953ECF63FF1F6037B5A0CD /* AFHTTPRequestOperationManager.m */; };
+		34925C4A0995918B70B4A58B99E56E17 /* NSError+APISoundCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C979063B5E7D629BE15F2D32BE42EC8 /* NSError+APISoundCloud.m */; };
+		40641C2AD4D5E526CA2629584A2F2C74 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 486CB8EA272E320AE7F53A60CF774A89 /* AFURLRequestSerialization.h */; };
+		456B314F28CB3554956389E3F612E863 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 58947489423AAD47B88D7DFE1F6AAF9B /* AFURLSessionManager.m */; };
+		4731E89AE53FB56CAA8D2B183E014566 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = EC7DF0A5DE17D0F410A1986986535D3E /* UIImageView+AFNetworking.h */; };
+		4CB694854A33185706ADCED706E77A54 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2664EA8AB3B33EE300B42645A420AC94 /* Security.framework */; };
+		4EE42F3E6A5BF5452430B462AE9B99AF /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E14431259F5E98A973F871C99AACF5E1 /* AFNetworking.h */; };
+		5BAAB70C0AE29C525D97BF4E560BA47A /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EB73A51A292F471633B4B9E8631CFE6B /* UIRefreshControl+AFNetworking.m */; };
+		617C73E9F5BD2ED139C6D142EA808BEA /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 69254E623DA1B7A132B313AAEE741839 /* UIWebView+AFNetworking.h */; };
+		63901185FAFAD569B04995087E7DA669 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C202C6A46EFCC93AB79DEF0D9FC66A0 /* AFNetworkReachabilityManager.m */; };
+		64D865A57708E13F1D7C4C7E376D5D98 /* Lockbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 116882F08941E5111FE901B4271EAE28 /* Lockbox-dummy.m */; };
+		7403E8DD4115F59222367A113A0652AB /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6824A831E3FB748D2593DF25EBB4AE5 /* Pods-Tests-dummy.m */; };
+		7435CCA7C7678E81D9011A3A0B6A704C /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CE3215BDD364D1FF5B3F3A559637F4 /* UIProgressView+AFNetworking.m */; };
+		7C7C8F2D67C97209E1131A40F7E5AFAB /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E9B1D194A9DF0546523E7D8E593FAB /* AFURLConnectionOperation.m */; };
+		81BCC64B959E3167C266152F54917261 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EDD39E9B203892A96F397FFEA8B4BD /* AFHTTPRequestOperation.h */; };
+		8288E2451166C20821702F37571408B0 /* Lockbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2240F7A2D15F7923D623050AFDCA48 /* Lockbox.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		832C1B6C0B5FC654FA89965C23EA3A9C /* NSError+APISoundCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E3B6D9D473436FB6B220FD6D6C570E8 /* NSError+APISoundCloud.h */; };
+		83F4329896755E7A27865EF48F201A92 /* SoundCloudLoginWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 535CE045AD48F882CA470374F3122B52 /* SoundCloudLoginWebViewController.h */; };
+		8970FB4A75CB1767AB9041BAA6D46DC3 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F29F089019E97DA15A47A018F261E41 /* UIActivityIndicatorView+AFNetworking.m */; };
+		8A57EDF12F89173003F63C1EFBB7F82E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E4F20D7B1B85196E71504AE9C295E1 /* CoreGraphics.framework */; };
+		8F166C7DF0FFCF5C2F36DB2A1DB62ACE /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = BF510C232C32B2B1DF9C90A78A030C2E /* UIActivityIndicatorView+AFNetworking.h */; };
+		90CEAF9428C057CFFEC18458EC38276E /* SoundCloudPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B80F3AD85FAF6007DB1CD71BBC7C10A /* SoundCloudPort.m */; };
+		933150C64CA986D1C7CD0FA25E05FFCA /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = F06D059BBF7BEA5156C17526BD4618D2 /* AFURLConnectionOperation.h */; };
+		949152D1CC9B31701B362B6827E192AB /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CF73036E4B70F56B35D468174AA894 /* AFNetworkActivityIndicatorManager.m */; };
+		970FBCE6C0CA565A585B8BD884020A77 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 734AD08E12D48A5F221D14300D103D44 /* AFNetworkActivityIndicatorManager.h */; };
+		9B3AAE408204105745A7A356F58AEDFE /* Lockbox.h in Headers */ = {isa = PBXBuildFile; fileRef = E393C574037BF1F32EACCE2F3911FB7A /* Lockbox.h */; };
+		A18D7CCC5BDBEBA740C860C417DBCFD0 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A592346181403628226B772BC874AFE /* AFSecurityPolicy.h */; };
+		A2BB40B1565E7AE28BF2186D0AE63FBF /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEF7CC8EC7248CE938D7A04E8DEFA60 /* AFURLResponseSerialization.m */; };
+		A2C8E25BC9E8F627B4F57B5CF594B268 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 305C561ED97095A4152A93F2CC6FB06E /* AFNetworking-dummy.m */; };
+		B1348ADBDAA0C8FA2C6A018423159337 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1618B7071EF0EDEF571CE7622EE3B2E7 /* AFHTTPSessionManager.m */; };
+		B2EC8A7190FB97E1B0064381EEB8714A /* AFHTTPRequestSerializer+OAuth2.h in Headers */ = {isa = PBXBuildFile; fileRef = F3613F95A2677FD95D6E5BE8A832A067 /* AFHTTPRequestSerializer+OAuth2.h */; };
+		B713AEDB841B59DF90991F69BD303AB4 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9D597B5A599E5AD07E6CADCC800E04 /* AFHTTPRequestOperation.m */; };
+		C0E62D9D23D59A969DF78708BC08ECA1 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F50529C7C2927A06407AE602338BD9B5 /* UIAlertView+AFNetworking.m */; };
+		C94DC9CA06ACD286744AC437CF31E695 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8107C0FAE0B4670D0F34436AED15A7AC /* MobileCoreServices.framework */; };
+		CC1291AE5792F486C8DB66D6088DCF3B /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8075AD5F1657FD00E2CA287DE2F99371 /* UIImageView+AFNetworking.m */; };
+		CE749AEE6B5CB26D854961285CCA587B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90DB764127B3513E7C3F261274F666FB /* Foundation.framework */; };
+		CEA405EB06026AEC7E9A092EF7438970 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0CAE6197B4A57349F23BAF76F8977C /* SystemConfiguration.framework */; };
+		CF1ACAF2A72055F2F5E8AA6D4BF82E33 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 285D29E3DBC8E3577F978070A2F5111D /* UIProgressView+AFNetworking.h */; };
+		DE46B542B362B29710779ED857C9DBEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90DB764127B3513E7C3F261274F666FB /* Foundation.framework */; };
+		DECB0490A60C99EB4BD43021D6315DAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90DB764127B3513E7C3F261274F666FB /* Foundation.framework */; };
+		DF1770D5A62E1638C77DB361E2AD6EA1 /* SoundCloudPort.h in Headers */ = {isa = PBXBuildFile; fileRef = A782FE79518D6518D09A2D5A2283867A /* SoundCloudPort.h */; };
+		E25C8E6C096DDF21FBBF550BF2A11411 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD6CE3D03AA9B7B0C7606531F722FD /* AFURLRequestSerialization.m */; };
+		E4FF87FE2D5762997100C70C5889B2F9 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F1864FFF7A8BCE118CD849D2C05DB6BD /* UIButton+AFNetworking.m */; };
+		E599BFDF5739964C2684EEB7CBF6C63F /* AFHTTPRequestSerializer+OAuth2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB8CAC00A9DEAC4ACFC9789EFD95267 /* AFHTTPRequestSerializer+OAuth2.m */; };
+		E5E0FF8C43194A12CC1134B1F272EC53 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EAA9F002723A171A2DD6DDC1384DB61 /* UIButton+AFNetworking.h */; };
+		E7B6F0D579B2214AD836C18308D51610 /* NSUserDefaults+SoundCloudToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BC9C05C5B31636D5D294F170C305F4 /* NSUserDefaults+SoundCloudToken.m */; };
+		EA9B4CCB164DE559B84A1427CFAF8C93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90DB764127B3513E7C3F261274F666FB /* Foundation.framework */; };
+		EC261DBC3FB381EEC6503409A910715B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2664EA8AB3B33EE300B42645A420AC94 /* Security.framework */; };
+		EC29F347DFA94528FC218B3C988861ED /* SoundCloudLoginWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1E5D600402ED4E376E8E1273169C48 /* SoundCloudLoginWebViewController.m */; };
+		F58439FB2A28A4EF3AE1B4AB739B0D94 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA73EC563001538533BE68AB6835FBB /* AFURLSessionManager.h */; };
+		F7C488436F0BB29CEAD9BD52FADBE291 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90DB764127B3513E7C3F261274F666FB /* Foundation.framework */; };
+		F7E15F4F1A6580A47153016AC0173315 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 858AE5BDE74BF98F812368658D23F2D8 /* UIAlertView+AFNetworking.h */; };
+		F90BD3F1874D7FDDB8DF08578A3589F6 /* Pods-ABMSoundCloudAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A76DA9D71606D74E0F5FFC373E439A22 /* Pods-ABMSoundCloudAPI-dummy.m */; };
+		FBB134542DB8F3046A0AFA0E6B7C2379 /* AFOAuth2Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BBAD1B50F7C00097B3C9BB2AE12EF5D /* AFOAuth2Manager.h */; };
+		FC96206FCAA4505DA3222F76468B7A53 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F8724F281D00B647E05D5995F85D1F5C /* AFHTTPRequestOperationManager.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1C7578CB5AE354EC233EA60E /* PBXContainerItemProxy */ = {
+		17603DDE5BCE08381D22422B94B78536 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5FEC4782316DF172D2E69B9C /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 75125D219AE2501820EB354A;
-			remoteInfo = "Pods-ABMSoundCloudAPI-AFNetworking";
+			remoteGlobalIDString = 5E01E7603D7A1FF064C9ADD3129B26E7;
+			remoteInfo = Lockbox;
 		};
-		4C2E39D80D9178EF12B3F496 /* PBXContainerItemProxy */ = {
+		5B7D81B8096EF4241C310D6E85C8427B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5FEC4782316DF172D2E69B9C /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7103B2AADCFDCA41A304613C;
-			remoteInfo = "Pods-Tests-AFOAuth2Manager";
+			remoteGlobalIDString = 3D53FA6031BAA16F6FAA799C1A65A482;
+			remoteInfo = AFNetworking;
 		};
-		537B6ED19794031F0D8240B9 /* PBXContainerItemProxy */ = {
+		6D8E4C21A528A8D15B0AA6B3AADE17E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5FEC4782316DF172D2E69B9C /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A0780DB23D6FA8E0C58A13A0;
-			remoteInfo = "Pods-ABMSoundCloudAPI-AFOAuth2Manager";
+			remoteGlobalIDString = 3D53FA6031BAA16F6FAA799C1A65A482;
+			remoteInfo = AFNetworking;
 		};
-		A696FC3A7B81A30A40006620 /* PBXContainerItemProxy */ = {
+		6FDBBD28E5978A6962B8059A0C775FB0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5FEC4782316DF172D2E69B9C /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 35D5584865FEEAC50553C614;
-			remoteInfo = "Pods-Tests-ABMSoundCloudAPI";
+			remoteGlobalIDString = 3D53FA6031BAA16F6FAA799C1A65A482;
+			remoteInfo = AFNetworking;
 		};
-		AB734EFBF32BED6BD69790BF /* PBXContainerItemProxy */ = {
+		7E1D5FA24CAD8683F7BAA54A2EBBA98E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5FEC4782316DF172D2E69B9C /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A0780DB23D6FA8E0C58A13A0;
-			remoteInfo = "Pods-ABMSoundCloudAPI-AFOAuth2Manager";
+			remoteGlobalIDString = 0D139736D08246596E5B5C8A2BCB9EF2;
+			remoteInfo = ABMSoundCloudAPI;
 		};
-		B0465799137127BD4FDE55D4 /* PBXContainerItemProxy */ = {
+		84E1799A8A185C5A83BCE38EF46030AB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5FEC4782316DF172D2E69B9C /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D71C6A196190092D92C76AB5;
-			remoteInfo = "Pods-ABMSoundCloudAPI-ABMSoundCloudAPI";
+			remoteGlobalIDString = 5E01E7603D7A1FF064C9ADD3129B26E7;
+			remoteInfo = Lockbox;
 		};
-		BC2BD2DE0604B07C5C38AC2A /* PBXContainerItemProxy */ = {
+		B80937B3189AD9B474F87E4157495491 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5FEC4782316DF172D2E69B9C /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 75125D219AE2501820EB354A;
-			remoteInfo = "Pods-ABMSoundCloudAPI-AFNetworking";
+			remoteGlobalIDString = 883606CBDD8DE7877CEBA951CF649331;
+			remoteInfo = AFOAuth2Manager;
 		};
-		BC82EB9B906B10D6485C2CE3 /* PBXContainerItemProxy */ = {
+		C9ABFF395749B46A6EBF0A07DDC4FFD8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5FEC4782316DF172D2E69B9C /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D06EBA93D5BAF8291D78AEC2;
-			remoteInfo = "Pods-Tests-AFNetworking";
+			remoteGlobalIDString = 883606CBDD8DE7877CEBA951CF649331;
+			remoteInfo = AFOAuth2Manager;
 		};
-		C2568D13C0103CCAB6CA2D71 /* PBXContainerItemProxy */ = {
+		E1685E3F9355B68856918B043256842B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5FEC4782316DF172D2E69B9C /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7103B2AADCFDCA41A304613C;
-			remoteInfo = "Pods-Tests-AFOAuth2Manager";
+			remoteGlobalIDString = 883606CBDD8DE7877CEBA951CF649331;
+			remoteInfo = AFOAuth2Manager;
 		};
-		C926521AE47B94DD2814FE68 /* PBXContainerItemProxy */ = {
+		E9322023CB287D32CEB13602A961DB59 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5FEC4782316DF172D2E69B9C /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 75125D219AE2501820EB354A;
-			remoteInfo = "Pods-ABMSoundCloudAPI-AFNetworking";
+			remoteGlobalIDString = 0D139736D08246596E5B5C8A2BCB9EF2;
+			remoteInfo = ABMSoundCloudAPI;
 		};
-		D8F24D349D1812CF3788AFA9 /* PBXContainerItemProxy */ = {
+		E9D036CBDEE5A4A411788E8FAAC64726 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5FEC4782316DF172D2E69B9C /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D06EBA93D5BAF8291D78AEC2;
-			remoteInfo = "Pods-Tests-AFNetworking";
+			remoteGlobalIDString = 5E01E7603D7A1FF064C9ADD3129B26E7;
+			remoteInfo = Lockbox;
 		};
-		E542F90DA028DDC832D673EA /* PBXContainerItemProxy */ = {
+		FC7925ED5068AEBA352066347AC00CBB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5FEC4782316DF172D2E69B9C /* Project object */;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D06EBA93D5BAF8291D78AEC2;
-			remoteInfo = "Pods-Tests-AFNetworking";
+			remoteGlobalIDString = 3D53FA6031BAA16F6FAA799C1A65A482;
+			remoteInfo = AFNetworking;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		034928AACE10B6BFF2FC4E53 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		03882DC9F1F1C8EF6EABE550 /* SoundCloudLoginWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SoundCloudLoginWebViewController.h; sourceTree = "<group>"; };
-		1493F5A2F07DBB785551B53D /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		1AB6369FCC2B62D7F936A78F /* AFHTTPRequestSerializer+OAuth2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AFHTTPRequestSerializer+OAuth2.m"; path = "AFOAuth2Manager/AFHTTPRequestSerializer+OAuth2.m"; sourceTree = "<group>"; };
-		1C68BE9EA3A5B69B11686CB2 /* Pods-Tests-ABMSoundCloudAPI-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-ABMSoundCloudAPI-Private.xcconfig"; path = "../Pods-Tests-ABMSoundCloudAPI/Pods-Tests-ABMSoundCloudAPI-Private.xcconfig"; sourceTree = "<group>"; };
-		21AC14C1AEC077A19C464C74 /* Pods-ABMSoundCloudAPI-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABMSoundCloudAPI-AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		2360B7BF9FB83B1875B54F36 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2486E24261E8B0E8843F0597 /* Pods-ABMSoundCloudAPI-AFOAuth2Manager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABMSoundCloudAPI-AFOAuth2Manager-prefix.pch"; sourceTree = "<group>"; };
-		2B15AB20F14DFB1A8580C5C0 /* Pods-ABMSoundCloudAPI-ABMSoundCloudAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABMSoundCloudAPI-ABMSoundCloudAPI-dummy.m"; sourceTree = "<group>"; };
-		316D750A22273444F1E8CEA0 /* Pods-Tests-ABMSoundCloudAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-ABMSoundCloudAPI-dummy.m"; path = "../Pods-Tests-ABMSoundCloudAPI/Pods-Tests-ABMSoundCloudAPI-dummy.m"; sourceTree = "<group>"; };
-		373ADFA01F2D45F42A78B104 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A068868694F8BF7DFB72F4C /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		3ACF0CAFE37BA5F6746BA988 /* SoundCloudPort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SoundCloudPort.h; sourceTree = "<group>"; };
-		3B6ED7937075439845051755 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		3BDDC14C414716F2FD63E3FC /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		3C486BE623BA41D08F5BF19E /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		3CD97F0B0E653392968CFA5E /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		3E3C6A455A0A292458880E54 /* Pods-Tests-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-AFNetworking-dummy.m"; path = "../Pods-Tests-AFNetworking/Pods-Tests-AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		3F55178E6F7BD0DB4D03E58E /* Pods-ABMSoundCloudAPI-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABMSoundCloudAPI-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
-		45E2DA8E4BA624845A340614 /* Pods-ABMSoundCloudAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABMSoundCloudAPI.debug.xcconfig"; sourceTree = "<group>"; };
-		4A05A4A08A2DAE979D0455FA /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4A2CEA7CE70490101C5F6B36 /* Pods-Tests-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-AFNetworking-Private.xcconfig"; path = "../Pods-Tests-AFNetworking/Pods-Tests-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
-		4C8D8BAA3547F0CECFCE228E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		4CB0240E25554632A20D2927 /* Pods-ABMSoundCloudAPI-AFOAuth2Manager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABMSoundCloudAPI-AFOAuth2Manager-dummy.m"; sourceTree = "<group>"; };
-		4D072571BCB299809253C896 /* Pods-ABMSoundCloudAPI-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABMSoundCloudAPI-AFNetworking.xcconfig"; sourceTree = "<group>"; };
-		4DEBD5FC9907AAE131B6AA19 /* SoundCloudLoginWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SoundCloudLoginWebViewController.m; sourceTree = "<group>"; };
-		4F299B75902B59AE9FFAD21F /* libPods-Tests-ABMSoundCloudAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-ABMSoundCloudAPI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		51D5C1DD2A87B536C279E16D /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		56943DE8BADE6002F3F9044C /* libPods-ABMSoundCloudAPI-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ABMSoundCloudAPI-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		57C934F687E74967823CF96F /* Pods-ABMSoundCloudAPI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABMSoundCloudAPI-acknowledgements.plist"; sourceTree = "<group>"; };
-		58502408A1FA7469CEA1A4BE /* Pods-Tests-AFOAuth2Manager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-AFOAuth2Manager-Private.xcconfig"; path = "../Pods-Tests-AFOAuth2Manager/Pods-Tests-AFOAuth2Manager-Private.xcconfig"; sourceTree = "<group>"; };
-		58807A0C405280640C842615 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		5901B108D84855D4B262EDF6 /* NSUserDefaults+SoundCloudToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+SoundCloudToken.h"; sourceTree = "<group>"; };
-		59956BE5C4ACEF36FE4B96BF /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		5DF800AA1EECF57A499A7AAF /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		5F672874E51D7E0BC371DEBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		5FBE57640DB57C5A28EA4373 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		6075A16112246E368AC0A8AC /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
-		63DB481521D9FECB167CC219 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		643648D7D1E5993A594307C1 /* SoundCloudLogin.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = SoundCloudLogin.storyboard; sourceTree = "<group>"; };
-		652D78543DAFC9268BE0F22F /* Pods-Tests-ABMSoundCloudAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-ABMSoundCloudAPI.xcconfig"; path = "../Pods-Tests-ABMSoundCloudAPI/Pods-Tests-ABMSoundCloudAPI.xcconfig"; sourceTree = "<group>"; };
-		66327B1747C60AF0CC53A342 /* Pods-Tests-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-AFNetworking-prefix.pch"; path = "../Pods-Tests-AFNetworking/Pods-Tests-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		664D2A32F924DBE5C3CE0EE9 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		68545E61830E4A105A87E442 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
-		6F14B7047BE8E5B82C5508CC /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		6FAA0933E10F06A4CBE738BA /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		704F60C0725F39212C2C7FB3 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		73C4C5F42A69E336575AAAF4 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
-		76F5C99C89EA2879B3486C2B /* Pods-Tests-ABMSoundCloudAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-ABMSoundCloudAPI-prefix.pch"; path = "../Pods-Tests-ABMSoundCloudAPI/Pods-Tests-ABMSoundCloudAPI-prefix.pch"; sourceTree = "<group>"; };
-		774649A5CEDE39D973A1C58B /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
-		7930A5092CEA9C0316AC25E4 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		804E159C83EB930A73D763E4 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
-		8108998EF0A7172B93FFDA6E /* Pods-ABMSoundCloudAPI-AFOAuth2Manager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABMSoundCloudAPI-AFOAuth2Manager-Private.xcconfig"; sourceTree = "<group>"; };
-		846B6036CCD4FCECE24A8192 /* Pods-ABMSoundCloudAPI-ABMSoundCloudAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABMSoundCloudAPI-ABMSoundCloudAPI.xcconfig"; sourceTree = "<group>"; };
-		867CCB1FA855CBDBA4C30FA5 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		876C31F519B2432FDF301F7D /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		88C2A38D582114B488990919 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8B0EFACCCCBD1FC4DABC6D29 /* AFHTTPRequestSerializer+OAuth2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AFHTTPRequestSerializer+OAuth2.h"; path = "AFOAuth2Manager/AFHTTPRequestSerializer+OAuth2.h"; sourceTree = "<group>"; };
-		8D1F392A34FEF7FAFA81572C /* Pods-ABMSoundCloudAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABMSoundCloudAPI.release.xcconfig"; sourceTree = "<group>"; };
-		8D97E56D4064DDC03745B1C3 /* Pods-ABMSoundCloudAPI-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABMSoundCloudAPI-environment.h"; sourceTree = "<group>"; };
-		8DFCF34B1A5F6A74A5C29D64 /* AFOAuth2Manager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFOAuth2Manager.m; path = AFOAuth2Manager/AFOAuth2Manager.m; sourceTree = "<group>"; };
-		922D28E9D075B16F85559138 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		95710F0E8FD7F60A5440600A /* libPods-ABMSoundCloudAPI-ABMSoundCloudAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ABMSoundCloudAPI-ABMSoundCloudAPI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9687159D1C55EBC4AF5526F8 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		977CE839E0A4BD5D27D49DEC /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		9CE819C733E0F78BE98CAC48 /* AFOAuth2Manager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOAuth2Manager.h; path = AFOAuth2Manager/AFOAuth2Manager.h; sourceTree = "<group>"; };
-		9D0BC31B3D62114477D82B30 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
-		9FA38336A6BBDA3FEB601ABF /* libPods-ABMSoundCloudAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ABMSoundCloudAPI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A76125C8DFF03C1A825909E4 /* NSUserDefaults+SoundCloudToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+SoundCloudToken.m"; sourceTree = "<group>"; };
-		A7D86A1C6DF1048A2F9AE109 /* Pods-ABMSoundCloudAPI-ABMSoundCloudAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABMSoundCloudAPI-ABMSoundCloudAPI-prefix.pch"; sourceTree = "<group>"; };
-		ABDA40475438A9F28E0E6C16 /* Pods-ABMSoundCloudAPI-ABMSoundCloudAPI-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABMSoundCloudAPI-ABMSoundCloudAPI-Private.xcconfig"; sourceTree = "<group>"; };
-		ABE3C59D069DA6286C9EA0D2 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		AD006A69C02D9A975B4D2288 /* NSError+APISoundCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSError+APISoundCloud.h"; sourceTree = "<group>"; };
-		AE042E021D6793139CAF6F90 /* libPods-Tests-AFOAuth2Manager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-AFOAuth2Manager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7707BFB78F165CB735E3A2B /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		BA0F540D1EF0276B91A3FD6C /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BD481611629BE67C2307D5B2 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		BFBF2970B6CDE8C3BE15ECF0 /* Pods-Tests-AFOAuth2Manager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-AFOAuth2Manager-prefix.pch"; path = "../Pods-Tests-AFOAuth2Manager/Pods-Tests-AFOAuth2Manager-prefix.pch"; sourceTree = "<group>"; };
-		C0DB6B36853D777F6DC5534D /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		C7CD3045E9C7F7104306C077 /* Pods-Tests-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-AFNetworking.xcconfig"; path = "../Pods-Tests-AFNetworking/Pods-Tests-AFNetworking.xcconfig"; sourceTree = "<group>"; };
-		CA853613F7F1392970E68D74 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		CAC9382222F23D716CD19F5E /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		CB9E2DBA84F39B6EEE53D12C /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CDF13E8EC2A6025C88AE46A5 /* Pods-ABMSoundCloudAPI-AFOAuth2Manager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABMSoundCloudAPI-AFOAuth2Manager.xcconfig"; sourceTree = "<group>"; };
-		D30EBA9CA332DCE4813228BB /* Pods-ABMSoundCloudAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABMSoundCloudAPI-dummy.m"; sourceTree = "<group>"; };
-		D40FE25B7633D509F01165A0 /* Pods-ABMSoundCloudAPI-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABMSoundCloudAPI-resources.sh"; sourceTree = "<group>"; };
-		D5A44EAE6902494727B40CD9 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		D9D1B7D0B6C9CE48D732E669 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
-		DEBECC7EBB283BC1E822DC0F /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		DFF1B896529EDA8E78A58FE2 /* SoundCloudPort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SoundCloudPort.m; sourceTree = "<group>"; };
-		E0AC8C2C37F1665C971F7A7C /* Pods-Tests-AFOAuth2Manager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-AFOAuth2Manager-dummy.m"; path = "../Pods-Tests-AFOAuth2Manager/Pods-Tests-AFOAuth2Manager-dummy.m"; sourceTree = "<group>"; };
-		E2C0BDCC1958CA6276EFA05B /* Pods-Tests-AFOAuth2Manager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-AFOAuth2Manager.xcconfig"; path = "../Pods-Tests-AFOAuth2Manager/Pods-Tests-AFOAuth2Manager.xcconfig"; sourceTree = "<group>"; };
-		E53098270507AF3BE62CAE6B /* libPods-ABMSoundCloudAPI-AFOAuth2Manager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ABMSoundCloudAPI-AFOAuth2Manager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6DECB225969E198E5910BD2 /* Pods-ABMSoundCloudAPI-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABMSoundCloudAPI-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		E71233AA09D4FA170297B874 /* NSError+APISoundCloud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSError+APISoundCloud.m"; sourceTree = "<group>"; };
-		EA360835F9757A463A4C8760 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		EF09D1B49069470D52F9F23A /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
-		EF371975C0B576B987F203BB /* libPods-Tests-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F82C9064F3F2A8DE8117679D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		FEE3D7161E57C10169EF6E96 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		FFF8D2DD02A4266E07BF523F /* Pods-ABMSoundCloudAPI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABMSoundCloudAPI-acknowledgements.markdown"; sourceTree = "<group>"; };
+		02EDD39E9B203892A96F397FFEA8B4BD /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		10039593F07AB5C9379074C0AE500BD6 /* AFOAuth2Manager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFOAuth2Manager-prefix.pch"; sourceTree = "<group>"; };
+		10C24C8B5B75380F55C0B9BE28F47F5E /* Pods-ABMSoundCloudAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABMSoundCloudAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		116882F08941E5111FE901B4271EAE28 /* Lockbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Lockbox-dummy.m"; sourceTree = "<group>"; };
+		1313192CBCB9883C9FDE1AF0374B1E75 /* libAFOAuth2Manager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFOAuth2Manager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D179DE2EFCB3CD74A5C427796EF2DB /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1618B7071EF0EDEF571CE7622EE3B2E7 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		1B80F3AD85FAF6007DB1CD71BBC7C10A /* SoundCloudPort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SoundCloudPort.m; sourceTree = "<group>"; };
+		1C2923AB69E7163DDE106F51D85C041C /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		1C979063B5E7D629BE15F2D32BE42EC8 /* NSError+APISoundCloud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSError+APISoundCloud.m"; sourceTree = "<group>"; };
+		1E3110DCE7B4C46B113CC76FDA979590 /* Lockbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Lockbox-prefix.pch"; sourceTree = "<group>"; };
+		2664EA8AB3B33EE300B42645A420AC94 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		285D29E3DBC8E3577F978070A2F5111D /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		29E9B1D194A9DF0546523E7D8E593FAB /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		2A681F9B6140D4735925FD7F5050A365 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		305C561ED97095A4152A93F2CC6FB06E /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		31EED0D648B78F46FDB9590B40A52D09 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3538790CC41093006F055FD5D03D97BB /* AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		3909509C9B79DA45AC40A72F167D84CC /* ABMSoundCloudAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ABMSoundCloudAPI-dummy.m"; sourceTree = "<group>"; };
+		3BBAD1B50F7C00097B3C9BB2AE12EF5D /* AFOAuth2Manager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFOAuth2Manager.h; path = AFOAuth2Manager/AFOAuth2Manager.h; sourceTree = "<group>"; };
+		3CB8CAC00A9DEAC4ACFC9789EFD95267 /* AFHTTPRequestSerializer+OAuth2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AFHTTPRequestSerializer+OAuth2.m"; path = "AFOAuth2Manager/AFHTTPRequestSerializer+OAuth2.m"; sourceTree = "<group>"; };
+		486CB8EA272E320AE7F53A60CF774A89 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		4A2240F7A2D15F7923D623050AFDCA48 /* Lockbox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Lockbox.m; sourceTree = "<group>"; };
+		50CF73036E4B70F56B35D468174AA894 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		526BFB74561D32A89E90176E927B849D /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		535CE045AD48F882CA470374F3122B52 /* SoundCloudLoginWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SoundCloudLoginWebViewController.h; sourceTree = "<group>"; };
+		54BA7085570202C0430ED91CC2D7791A /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		58947489423AAD47B88D7DFE1F6AAF9B /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		58F678624CA52989D03FE0A9AB01BFF8 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		5A592346181403628226B772BC874AFE /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		5DC2A8BCB90982CE0796DC38B47BA394 /* libLockbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLockbox.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DCD6CE3D03AA9B7B0C7606531F722FD /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		5E3B6D9D473436FB6B220FD6D6C570E8 /* NSError+APISoundCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSError+APISoundCloud.h"; sourceTree = "<group>"; };
+		6259362D759A7CCB45B616E9759BF04A /* Pods-ABMSoundCloudAPI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABMSoundCloudAPI-acknowledgements.markdown"; sourceTree = "<group>"; };
+		663C0CC4349A721AFA248C26F1CD9213 /* ABMSoundCloudAPI-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ABMSoundCloudAPI-Private.xcconfig"; sourceTree = "<group>"; };
+		67337C34DFB9DCE2CAB7508C78A9A0BE /* NSUserDefaults+SoundCloudToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+SoundCloudToken.h"; sourceTree = "<group>"; };
+		68BC9C05C5B31636D5D294F170C305F4 /* NSUserDefaults+SoundCloudToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+SoundCloudToken.m"; sourceTree = "<group>"; };
+		69254E623DA1B7A132B313AAEE741839 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		6AFD77A8D885D818463120C9981CD444 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		6BEF7CC8EC7248CE938D7A04E8DEFA60 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		6C202C6A46EFCC93AB79DEF0D9FC66A0 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		6EAA9F002723A171A2DD6DDC1384DB61 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		6F29F089019E97DA15A47A018F261E41 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		734AD08E12D48A5F221D14300D103D44 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		7DD1C1D1EE584AAFBE96E63DC220F3E1 /* SoundCloudLogin.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = SoundCloudLogin.storyboard; sourceTree = "<group>"; };
+		8075AD5F1657FD00E2CA287DE2F99371 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		8107C0FAE0B4670D0F34436AED15A7AC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		83CE3215BDD364D1FF5B3F3A559637F4 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		858AE5BDE74BF98F812368658D23F2D8 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		86705579663A555FB62D048203497C70 /* AFOAuth2Manager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFOAuth2Manager.m; path = AFOAuth2Manager/AFOAuth2Manager.m; sourceTree = "<group>"; };
+		8FA73EC563001538533BE68AB6835FBB /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		90DB764127B3513E7C3F261274F666FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93E25C4ED7562EF0AEFC4640D14524C7 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C00C29830E62C33C262B34E7F3A6F8 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		9BC897A980DAC8304AFC74D5F54EE33C /* AFOAuth2Manager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFOAuth2Manager.xcconfig; sourceTree = "<group>"; };
+		A3B6F48DD59A0467BFB29A3B97457FC0 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A76DA9D71606D74E0F5FFC373E439A22 /* Pods-ABMSoundCloudAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ABMSoundCloudAPI-dummy.m"; sourceTree = "<group>"; };
+		A782FE79518D6518D09A2D5A2283867A /* SoundCloudPort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SoundCloudPort.h; sourceTree = "<group>"; };
+		A7E4F20D7B1B85196E71504AE9C295E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		A9A9B7210C1C8304CC02D0F2B50C8ACB /* ABMSoundCloudAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABMSoundCloudAPI.xcconfig; sourceTree = "<group>"; };
+		AD82863CD6CC1FEBBFE33AFF3CFAB23A /* Pods-ABMSoundCloudAPI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ABMSoundCloudAPI-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA0CAE6197B4A57349F23BAF76F8977C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAF8C72D0F29B59BA3EECAD3620F2A74 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BBB3197D9082EA65EBF41441F9B5A364 /* Pods-ABMSoundCloudAPI-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABMSoundCloudAPI-resources.sh"; sourceTree = "<group>"; };
+		BF510C232C32B2B1DF9C90A78A030C2E /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		BF66C923CFD6CC810DEE94E8CB1FD1F5 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		C5DA9078419B9EB677436661D2A6E59B /* libABMSoundCloudAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libABMSoundCloudAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1E5D600402ED4E376E8E1273169C48 /* SoundCloudLoginWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SoundCloudLoginWebViewController.m; sourceTree = "<group>"; };
+		CF9BBC23BF1BB2F4D406451BFFEDFF37 /* libPods-ABMSoundCloudAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ABMSoundCloudAPI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2B840043FC328FEC6D1CF6D2E68195 /* Pods-ABMSoundCloudAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABMSoundCloudAPI.release.xcconfig"; sourceTree = "<group>"; };
+		DA57F545E486B8671ACAA47E69118E93 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		DC9D597B5A599E5AD07E6CADCC800E04 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		DDAE8C1E63E1A00E6E2FD567B4AED97B /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		DEF551D408EA0BA806D7A29A9C4EF937 /* ABMSoundCloudAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABMSoundCloudAPI-prefix.pch"; sourceTree = "<group>"; };
+		E14431259F5E98A973F871C99AACF5E1 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		E393C574037BF1F32EACCE2F3911FB7A /* Lockbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Lockbox.h; sourceTree = "<group>"; };
+		E5AA3A9C63E03557FF889F1AA4AE95B4 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		E6824A831E3FB748D2593DF25EBB4AE5 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		EA3927681B7C97FB4F164ECDE0F8614D /* AFOAuth2Manager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFOAuth2Manager-dummy.m"; sourceTree = "<group>"; };
+		EB73A51A292F471633B4B9E8631CFE6B /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		EC7DF0A5DE17D0F410A1986986535D3E /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		ED475EE0E9015909545A63299CCA0EF3 /* Lockbox-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Lockbox-Private.xcconfig"; sourceTree = "<group>"; };
+		EF5A80D09F9CEB09CEF12E357E820EEF /* Lockbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Lockbox.xcconfig; sourceTree = "<group>"; };
+		F05781F6B52591E0772BD356A008FFD4 /* AFOAuth2Manager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AFOAuth2Manager-Private.xcconfig"; sourceTree = "<group>"; };
+		F06D059BBF7BEA5156C17526BD4618D2 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		F0F2E0653E953ECF63FF1F6037B5A0CD /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		F1864FFF7A8BCE118CD849D2C05DB6BD /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		F3613F95A2677FD95D6E5BE8A832A067 /* AFHTTPRequestSerializer+OAuth2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AFHTTPRequestSerializer+OAuth2.h"; path = "AFOAuth2Manager/AFHTTPRequestSerializer+OAuth2.h"; sourceTree = "<group>"; };
+		F50529C7C2927A06407AE602338BD9B5 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		F8724F281D00B647E05D5995F85D1F5C /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0EB65117799E1F9ACD1C0D37 /* Frameworks */ = {
+		12B915DA5944E7084617EB517417C885 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				248E72C3ECD35C4D2F5F2BBF /* Foundation.framework in Frameworks */,
-				93D1307388332134959A00B0 /* Security.framework in Frameworks */,
+				DECB0490A60C99EB4BD43021D6315DAA /* Foundation.framework in Frameworks */,
+				EC261DBC3FB381EEC6503409A910715B /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BBD15F42653BFFE416892EE /* Frameworks */ = {
+		2F16FD7F0E1D97CEED391ABB61CBF31A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9393AA280A2C3AAF6F609E0 /* Foundation.framework in Frameworks */,
+				CE749AEE6B5CB26D854961285CCA587B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		338CF786374A83654A536E10 /* Frameworks */ = {
+		4852DAFB8DF9B28183F328217EB154DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28A62474DD99FACA54EFA09A /* Foundation.framework in Frameworks */,
+				DE46B542B362B29710779ED857C9DBEF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E102352E30DC7B045CC57F7 /* Frameworks */ = {
+		B200E1F1E841C898DA44805BD6C692B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3DA81B51BCF9506BDA9850C /* CoreGraphics.framework in Frameworks */,
-				E3C22850877388FD1F864CD9 /* Foundation.framework in Frameworks */,
-				7C79774659A2B073004E6694 /* MobileCoreServices.framework in Frameworks */,
-				0DBF0780BCA3775F95FB666E /* Security.framework in Frameworks */,
-				C91840F956F5615B1FF3B870 /* SystemConfiguration.framework in Frameworks */,
+				F7C488436F0BB29CEAD9BD52FADBE291 /* Foundation.framework in Frameworks */,
+				4CB694854A33185706ADCED706E77A54 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D10BC321CF0B7F30297E4088 /* Frameworks */ = {
+		B80AC2DD26A54936474388225972545D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D66CCF3DDC3D9EDDD374BDC1 /* Foundation.framework in Frameworks */,
-				D3452A7DD03608CF6F259009 /* Security.framework in Frameworks */,
+				EA9B4CCB164DE559B84A1427CFAF8C93 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4CFAF3A75266DE969F71293 /* Frameworks */ = {
+		DF7D616D109C1A29989180E6D1D3065F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F234BFF91A211890C4FA407 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F6485041E7983F11C5A247C4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F36A6FB158C3D8E3A81F552E /* CoreGraphics.framework in Frameworks */,
-				9E6918847185CA02EA33A494 /* Foundation.framework in Frameworks */,
-				2930D4AA72771CEB42DEA828 /* MobileCoreServices.framework in Frameworks */,
-				EB2BA8F43E042BE39FB7DF7A /* Security.framework in Frameworks */,
-				AE1F1E37EEBA5762EC4C65E0 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB6B3FE9F7BD9AA55607D3C2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C71950229E92EE6C2A792897 /* Foundation.framework in Frameworks */,
+				8A57EDF12F89173003F63C1EFBB7F82E /* CoreGraphics.framework in Frameworks */,
+				2969D1651F443AABE72303E0301254BD /* Foundation.framework in Frameworks */,
+				C94DC9CA06ACD286744AC437CF31E695 /* MobileCoreServices.framework in Frameworks */,
+				088394DAC8E650E54E673249574D10C4 /* Security.framework in Frameworks */,
+				CEA405EB06026AEC7E9A092EF7438970 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0931D702D8A97DB2885AB36F /* Support Files */ = {
+		04A9A7D1565EE68F8AE65E5508A9F4F7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				846B6036CCD4FCECE24A8192 /* Pods-ABMSoundCloudAPI-ABMSoundCloudAPI.xcconfig */,
-				ABDA40475438A9F28E0E6C16 /* Pods-ABMSoundCloudAPI-ABMSoundCloudAPI-Private.xcconfig */,
-				2B15AB20F14DFB1A8580C5C0 /* Pods-ABMSoundCloudAPI-ABMSoundCloudAPI-dummy.m */,
-				A7D86A1C6DF1048A2F9AE109 /* Pods-ABMSoundCloudAPI-ABMSoundCloudAPI-prefix.pch */,
-				652D78543DAFC9268BE0F22F /* Pods-Tests-ABMSoundCloudAPI.xcconfig */,
-				1C68BE9EA3A5B69B11686CB2 /* Pods-Tests-ABMSoundCloudAPI-Private.xcconfig */,
-				316D750A22273444F1E8CEA0 /* Pods-Tests-ABMSoundCloudAPI-dummy.m */,
-				76F5C99C89EA2879B3486C2B /* Pods-Tests-ABMSoundCloudAPI-prefix.pch */,
+				EF5A80D09F9CEB09CEF12E357E820EEF /* Lockbox.xcconfig */,
+				ED475EE0E9015909545A63299CCA0EF3 /* Lockbox-Private.xcconfig */,
+				116882F08941E5111FE901B4271EAE28 /* Lockbox-dummy.m */,
+				1E3110DCE7B4C46B113CC76FDA979590 /* Lockbox-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-ABMSoundCloudAPI-ABMSoundCloudAPI";
+			path = "../Target Support Files/Lockbox";
 			sourceTree = "<group>";
 		};
-		1274D1EF04CB27F2C5CB624D /* ABMSoundCloudAPI */ = {
+		06FBC6A9CB5978AED56686604B7F2238 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				35F21AEFAC54B7AC927F65BD /* Pod */,
-				3C31F9555BE4D5AE89DD2670 /* Resources */,
-				0931D702D8A97DB2885AB36F /* Support Files */,
+				58F678624CA52989D03FE0A9AB01BFF8 /* AFNetworking.xcconfig */,
+				3538790CC41093006F055FD5D03D97BB /* AFNetworking-Private.xcconfig */,
+				305C561ED97095A4152A93F2CC6FB06E /* AFNetworking-dummy.m */,
+				54BA7085570202C0430ED91CC2D7791A /* AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		09888D223A3DFB43E91DA7D1452E2B09 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				535CE045AD48F882CA470374F3122B52 /* SoundCloudLoginWebViewController.h */,
+				CF1E5D600402ED4E376E8E1273169C48 /* SoundCloudLoginWebViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0A61AB1B58765EAE16BD334246A3C9C5 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				486CB8EA272E320AE7F53A60CF774A89 /* AFURLRequestSerialization.h */,
+				5DCD6CE3D03AA9B7B0C7606531F722FD /* AFURLRequestSerialization.m */,
+				DDAE8C1E63E1A00E6E2FD567B4AED97B /* AFURLResponseSerialization.h */,
+				6BEF7CC8EC7248CE938D7A04E8DEFA60 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		0C93A52A5E80347C290A511EB3795C98 /* Lockbox */ = {
+			isa = PBXGroup;
+			children = (
+				E393C574037BF1F32EACCE2F3911FB7A /* Lockbox.h */,
+				4A2240F7A2D15F7923D623050AFDCA48 /* Lockbox.m */,
+				04A9A7D1565EE68F8AE65E5508A9F4F7 /* Support Files */,
+			);
+			path = Lockbox;
+			sourceTree = "<group>";
+		};
+		101BCEA598D9B3E81D5AC109916575C8 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				5A592346181403628226B772BC874AFE /* AFSecurityPolicy.h */,
+				96C00C29830E62C33C262B34E7F3A6F8 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		12125D20ECFC342FF854854B5501680C /* ABMSoundCloudAPI */ = {
+			isa = PBXGroup;
+			children = (
+				4886673D64518B7E5940D21095FD08DE /* Pod */,
+				585276E8263ED3A850D0E2292D6EAAC5 /* Resources */,
+				93AB6DD2D32F1BA2FD083DDC4D4646E7 /* Support Files */,
 			);
 			name = ABMSoundCloudAPI;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		12F470A592C3C5749C79A888 /* Products */ = {
+		1C5DC3108D5AEAE569C925992F360B99 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				9FA38336A6BBDA3FEB601ABF /* libPods-ABMSoundCloudAPI.a */,
-				95710F0E8FD7F60A5440600A /* libPods-ABMSoundCloudAPI-ABMSoundCloudAPI.a */,
-				56943DE8BADE6002F3F9044C /* libPods-ABMSoundCloudAPI-AFNetworking.a */,
-				E53098270507AF3BE62CAE6B /* libPods-ABMSoundCloudAPI-AFOAuth2Manager.a */,
-				373ADFA01F2D45F42A78B104 /* libPods-Tests.a */,
-				4F299B75902B59AE9FFAD21F /* libPods-Tests-ABMSoundCloudAPI.a */,
-				EF371975C0B576B987F203BB /* libPods-Tests-AFNetworking.a */,
-				AE042E021D6793139CAF6F90 /* libPods-Tests-AFOAuth2Manager.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		14C8EF3B07993A097D7DC678 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B9FA8EC7F165CBDB96B13441 /* Pods-ABMSoundCloudAPI */,
-				72B274F104FF934AD1A4BCAB /* Pods-Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		1968EB2E99CA68FEF248163C /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				03882DC9F1F1C8EF6EABE550 /* SoundCloudLoginWebViewController.h */,
-				4DEBD5FC9907AAE131B6AA19 /* SoundCloudLoginWebViewController.m */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		1EE8BA95ABE95E0550082A25 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				CAC9382222F23D716CD19F5E /* AFNetworkActivityIndicatorManager.h */,
-				5FBE57640DB57C5A28EA4373 /* AFNetworkActivityIndicatorManager.m */,
-				ABE3C59D069DA6286C9EA0D2 /* UIActivityIndicatorView+AFNetworking.h */,
-				3B6ED7937075439845051755 /* UIActivityIndicatorView+AFNetworking.m */,
-				9D0BC31B3D62114477D82B30 /* UIAlertView+AFNetworking.h */,
-				774649A5CEDE39D973A1C58B /* UIAlertView+AFNetworking.m */,
-				CA853613F7F1392970E68D74 /* UIButton+AFNetworking.h */,
-				977CE839E0A4BD5D27D49DEC /* UIButton+AFNetworking.m */,
-				BD481611629BE67C2307D5B2 /* UIImageView+AFNetworking.h */,
-				3C486BE623BA41D08F5BF19E /* UIImageView+AFNetworking.m */,
-				C0DB6B36853D777F6DC5534D /* UIKit+AFNetworking.h */,
-				922D28E9D075B16F85559138 /* UIProgressView+AFNetworking.h */,
-				EA360835F9757A463A4C8760 /* UIProgressView+AFNetworking.m */,
-				6FAA0933E10F06A4CBE738BA /* UIRefreshControl+AFNetworking.h */,
-				7930A5092CEA9C0316AC25E4 /* UIRefreshControl+AFNetworking.m */,
-				1493F5A2F07DBB785551B53D /* UIWebView+AFNetworking.h */,
-				58807A0C405280640C842615 /* UIWebView+AFNetworking.m */,
-			);
-			name = UIKit;
-			sourceTree = "<group>";
-		};
-		244935903AFC7F4B228D4BDE /* Serialization */ = {
-			isa = PBXGroup;
-			children = (
-				6F14B7047BE8E5B82C5508CC /* AFURLRequestSerialization.h */,
-				664D2A32F924DBE5C3CE0EE9 /* AFURLRequestSerialization.m */,
-				51D5C1DD2A87B536C279E16D /* AFURLResponseSerialization.h */,
-				876C31F519B2432FDF301F7D /* AFURLResponseSerialization.m */,
-			);
-			name = Serialization;
-			sourceTree = "<group>";
-		};
-		2723200D06E6D098076D1E83 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				BD7E289DAB294C032C4CD0AF /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		35F21AEFAC54B7AC927F65BD /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				874C8045F374463973B2467C /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		3978769187DE01E09D08A4FA /* NSURLSession */ = {
-			isa = PBXGroup;
-			children = (
-				9687159D1C55EBC4AF5526F8 /* AFHTTPSessionManager.h */,
-				5DF800AA1EECF57A499A7AAF /* AFHTTPSessionManager.m */,
-				59956BE5C4ACEF36FE4B96BF /* AFURLSessionManager.h */,
-				63DB481521D9FECB167CC219 /* AFURLSessionManager.m */,
-			);
-			name = NSURLSession;
-			sourceTree = "<group>";
-		};
-		3AF45B8D4B1F31A4C8B2259C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1274D1EF04CB27F2C5CB624D /* ABMSoundCloudAPI */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		3C31F9555BE4D5AE89DD2670 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				2723200D06E6D098076D1E83 /* Pod */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		3D44485E2CA51DB9CB6BC778 /* Security */ = {
-			isa = PBXGroup;
-			children = (
-				B7707BFB78F165CB735E3A2B /* AFSecurityPolicy.h */,
-				3CD97F0B0E653392968CFA5E /* AFSecurityPolicy.m */,
-			);
-			name = Security;
-			sourceTree = "<group>";
-		};
-		4DB3BDD3E24AC378EF6B2997 /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				DEBECC7EBB283BC1E822DC0F /* AFNetworkReachabilityManager.h */,
-				3A068868694F8BF7DFB72F4C /* AFNetworkReachabilityManager.m */,
-			);
-			name = Reachability;
-			sourceTree = "<group>";
-		};
-		522D7EF34EDFCC3142A156EE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CDF13E8EC2A6025C88AE46A5 /* Pods-ABMSoundCloudAPI-AFOAuth2Manager.xcconfig */,
-				8108998EF0A7172B93FFDA6E /* Pods-ABMSoundCloudAPI-AFOAuth2Manager-Private.xcconfig */,
-				4CB0240E25554632A20D2927 /* Pods-ABMSoundCloudAPI-AFOAuth2Manager-dummy.m */,
-				2486E24261E8B0E8843F0597 /* Pods-ABMSoundCloudAPI-AFOAuth2Manager-prefix.pch */,
-				E2C0BDCC1958CA6276EFA05B /* Pods-Tests-AFOAuth2Manager.xcconfig */,
-				58502408A1FA7469CEA1A4BE /* Pods-Tests-AFOAuth2Manager-Private.xcconfig */,
-				E0AC8C2C37F1665C971F7A7C /* Pods-Tests-AFOAuth2Manager-dummy.m */,
-				BFBF2970B6CDE8C3BE15ECF0 /* Pods-Tests-AFOAuth2Manager-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-ABMSoundCloudAPI-AFOAuth2Manager";
-			sourceTree = "<group>";
-		};
-		6578F0D199C3E13AAC436C29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5F672874E51D7E0BC371DEBD /* CoreGraphics.framework */,
-				88C2A38D582114B488990919 /* Foundation.framework */,
-				4C8D8BAA3547F0CECFCE228E /* MobileCoreServices.framework */,
-				F82C9064F3F2A8DE8117679D /* Security.framework */,
-				034928AACE10B6BFF2FC4E53 /* SystemConfiguration.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		72B274F104FF934AD1A4BCAB /* Pods-Tests */ = {
-			isa = PBXGroup;
-			children = (
-				2360B7BF9FB83B1875B54F36 /* Pods-Tests-acknowledgements.markdown */,
-				CB9E2DBA84F39B6EEE53D12C /* Pods-Tests-acknowledgements.plist */,
-				704F60C0725F39212C2C7FB3 /* Pods-Tests-dummy.m */,
-				68545E61830E4A105A87E442 /* Pods-Tests-environment.h */,
-				FEE3D7161E57C10169EF6E96 /* Pods-Tests-resources.sh */,
-				4A05A4A08A2DAE979D0455FA /* Pods-Tests.debug.xcconfig */,
-				BA0F540D1EF0276B91A3FD6C /* Pods-Tests.release.xcconfig */,
-			);
-			name = "Pods-Tests";
-			path = "Target Support Files/Pods-Tests";
-			sourceTree = "<group>";
-		};
-		79DBC1087C02D2FD0A88C6EF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4D072571BCB299809253C896 /* Pods-ABMSoundCloudAPI-AFNetworking.xcconfig */,
-				3F55178E6F7BD0DB4D03E58E /* Pods-ABMSoundCloudAPI-AFNetworking-Private.xcconfig */,
-				21AC14C1AEC077A19C464C74 /* Pods-ABMSoundCloudAPI-AFNetworking-dummy.m */,
-				E6DECB225969E198E5910BD2 /* Pods-ABMSoundCloudAPI-AFNetworking-prefix.pch */,
-				C7CD3045E9C7F7104306C077 /* Pods-Tests-AFNetworking.xcconfig */,
-				4A2CEA7CE70490101C5F6B36 /* Pods-Tests-AFNetworking-Private.xcconfig */,
-				3E3C6A455A0A292458880E54 /* Pods-Tests-AFNetworking-dummy.m */,
-				66327B1747C60AF0CC53A342 /* Pods-Tests-AFNetworking-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-ABMSoundCloudAPI-AFNetworking";
-			sourceTree = "<group>";
-		};
-		874C8045F374463973B2467C /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				C261D50EAFE7CD84DC822341 /* API */,
-				A1F77483438FA48CC36D2C11 /* Categories */,
-				1968EB2E99CA68FEF248163C /* Controllers */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		A1F77483438FA48CC36D2C11 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				AD006A69C02D9A975B4D2288 /* NSError+APISoundCloud.h */,
-				E71233AA09D4FA170297B874 /* NSError+APISoundCloud.m */,
-				5901B108D84855D4B262EDF6 /* NSUserDefaults+SoundCloudToken.h */,
-				A76125C8DFF03C1A825909E4 /* NSUserDefaults+SoundCloudToken.m */,
+				5E3B6D9D473436FB6B220FD6D6C570E8 /* NSError+APISoundCloud.h */,
+				1C979063B5E7D629BE15F2D32BE42EC8 /* NSError+APISoundCloud.m */,
+				67337C34DFB9DCE2CAB7508C78A9A0BE /* NSUserDefaults+SoundCloudToken.h */,
+				68BC9C05C5B31636D5D294F170C305F4 /* NSUserDefaults+SoundCloudToken.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
 		};
-		B9FA8EC7F165CBDB96B13441 /* Pods-ABMSoundCloudAPI */ = {
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FFF8D2DD02A4266E07BF523F /* Pods-ABMSoundCloudAPI-acknowledgements.markdown */,
-				57C934F687E74967823CF96F /* Pods-ABMSoundCloudAPI-acknowledgements.plist */,
-				D30EBA9CA332DCE4813228BB /* Pods-ABMSoundCloudAPI-dummy.m */,
-				8D97E56D4064DDC03745B1C3 /* Pods-ABMSoundCloudAPI-environment.h */,
-				D40FE25B7633D509F01165A0 /* Pods-ABMSoundCloudAPI-resources.sh */,
-				45E2DA8E4BA624845A340614 /* Pods-ABMSoundCloudAPI.debug.xcconfig */,
-				8D1F392A34FEF7FAFA81572C /* Pods-ABMSoundCloudAPI.release.xcconfig */,
+				D39F297F7432FCFAB7049A1566A95C1A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27DA15A5FEC888208AFBDF250E04D231 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A782FE79518D6518D09A2D5A2283867A /* SoundCloudPort.h */,
+				1B80F3AD85FAF6007DB1CD71BBC7C10A /* SoundCloudPort.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		2C94B8B67FBAB718F1D5950697FF18C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92067056D4D9A18DA3072B21DA8AF3BA /* AFNetworking */,
+				A125C3007EEA999D47246207D1220C59 /* AFOAuth2Manager */,
+				0C93A52A5E80347C290A511EB3795C98 /* Lockbox */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4886673D64518B7E5940D21095FD08DE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F8181B323C092B0675E3E20C09F82E80 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		4D4E42FAAA8B37568FF4E68E8512518B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D37AC0C78B7771ABD42E83D332113522 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4F000AC9043201C81B7BF195BA937F58 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				526BFB74561D32A89E90176E927B849D /* AFHTTPSessionManager.h */,
+				1618B7071EF0EDEF571CE7622EE3B2E7 /* AFHTTPSessionManager.m */,
+				8FA73EC563001538533BE68AB6835FBB /* AFURLSessionManager.h */,
+				58947489423AAD47B88D7DFE1F6AAF9B /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		585276E8263ED3A850D0E2292D6EAAC5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7A6460B2D9E384D43B781B80BD297E75 /* Pod */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		59083735B46E202D25242E7BE0986A59 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				DA57F545E486B8671ACAA47E69118E93 /* AFNetworkReachabilityManager.h */,
+				6C202C6A46EFCC93AB79DEF0D9FC66A0 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		5C064ABA4C03483697F91214A1740F97 /* Pods-ABMSoundCloudAPI */ = {
+			isa = PBXGroup;
+			children = (
+				6259362D759A7CCB45B616E9759BF04A /* Pods-ABMSoundCloudAPI-acknowledgements.markdown */,
+				AD82863CD6CC1FEBBFE33AFF3CFAB23A /* Pods-ABMSoundCloudAPI-acknowledgements.plist */,
+				A76DA9D71606D74E0F5FFC373E439A22 /* Pods-ABMSoundCloudAPI-dummy.m */,
+				BBB3197D9082EA65EBF41441F9B5A364 /* Pods-ABMSoundCloudAPI-resources.sh */,
+				10C24C8B5B75380F55C0B9BE28F47F5E /* Pods-ABMSoundCloudAPI.debug.xcconfig */,
+				DA2B840043FC328FEC6D1CF6D2E68195 /* Pods-ABMSoundCloudAPI.release.xcconfig */,
 			);
 			name = "Pods-ABMSoundCloudAPI";
 			path = "Target Support Files/Pods-ABMSoundCloudAPI";
 			sourceTree = "<group>";
 		};
-		BD7E289DAB294C032C4CD0AF /* Classes */ = {
+		72750765640C79F6E5565693457BBEF7 /* NSURLConnection */ = {
 			isa = PBXGroup;
 			children = (
-				DCA302EAA974C6D90D005800 /* Views */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		BF0404B924154800D25AFEB0 /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				D5A44EAE6902494727B40CD9 /* AFNetworking.h */,
-				C76A445073BD6496AA0AE1FC /* NSURLConnection */,
-				3978769187DE01E09D08A4FA /* NSURLSession */,
-				4DB3BDD3E24AC378EF6B2997 /* Reachability */,
-				3D44485E2CA51DB9CB6BC778 /* Security */,
-				244935903AFC7F4B228D4BDE /* Serialization */,
-				79DBC1087C02D2FD0A88C6EF /* Support Files */,
-				1EE8BA95ABE95E0550082A25 /* UIKit */,
-			);
-			path = AFNetworking;
-			sourceTree = "<group>";
-		};
-		C261D50EAFE7CD84DC822341 /* API */ = {
-			isa = PBXGroup;
-			children = (
-				3ACF0CAFE37BA5F6746BA988 /* SoundCloudPort.h */,
-				DFF1B896529EDA8E78A58FE2 /* SoundCloudPort.m */,
-			);
-			path = API;
-			sourceTree = "<group>";
-		};
-		C76A445073BD6496AA0AE1FC /* NSURLConnection */ = {
-			isa = PBXGroup;
-			children = (
-				3BDDC14C414716F2FD63E3FC /* AFHTTPRequestOperation.h */,
-				D9D1B7D0B6C9CE48D732E669 /* AFHTTPRequestOperation.m */,
-				6075A16112246E368AC0A8AC /* AFHTTPRequestOperationManager.h */,
-				804E159C83EB930A73D763E4 /* AFHTTPRequestOperationManager.m */,
-				EF09D1B49069470D52F9F23A /* AFURLConnectionOperation.h */,
-				73C4C5F42A69E336575AAAF4 /* AFURLConnectionOperation.m */,
+				02EDD39E9B203892A96F397FFEA8B4BD /* AFHTTPRequestOperation.h */,
+				DC9D597B5A599E5AD07E6CADCC800E04 /* AFHTTPRequestOperation.m */,
+				F8724F281D00B647E05D5995F85D1F5C /* AFHTTPRequestOperationManager.h */,
+				F0F2E0653E953ECF63FF1F6037B5A0CD /* AFHTTPRequestOperationManager.m */,
+				F06D059BBF7BEA5156C17526BD4618D2 /* AFURLConnectionOperation.h */,
+				29E9B1D194A9DF0546523E7D8E593FAB /* AFURLConnectionOperation.m */,
 			);
 			name = NSURLConnection;
 			sourceTree = "<group>";
 		};
-		CB1C79A234CDBF4BD512E981 /* Frameworks */ = {
+		7A6460B2D9E384D43B781B80BD297E75 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6578F0D199C3E13AAC436C29 /* iOS */,
+				4D4E42FAAA8B37568FF4E68E8512518B /* Classes */,
 			);
-			name = Frameworks;
+			path = Pod;
 			sourceTree = "<group>";
 		};
-		DAB2C046F9AA8F966941D760 = {
+		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				867CCB1FA855CBDBA4C30FA5 /* Podfile */,
-				3AF45B8D4B1F31A4C8B2259C /* Development Pods */,
-				CB1C79A234CDBF4BD512E981 /* Frameworks */,
-				E1CB65BBDFAF13CABC0E5E66 /* Pods */,
-				12F470A592C3C5749C79A888 /* Products */,
-				14C8EF3B07993A097D7DC678 /* Targets Support Files */,
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				A79D9B3014EB9AED3A8083D64430C0A7 /* Development Pods */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				2C94B8B67FBAB718F1D5950697FF18C9 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				C5E0647160FFD215334C8773D1E5AB0E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DCA302EAA974C6D90D005800 /* Views */ = {
+		85EBA6776B32CA34C1D3C701A8249336 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				643648D7D1E5993A594307C1 /* SoundCloudLogin.storyboard */,
+				734AD08E12D48A5F221D14300D103D44 /* AFNetworkActivityIndicatorManager.h */,
+				50CF73036E4B70F56B35D468174AA894 /* AFNetworkActivityIndicatorManager.m */,
+				BF510C232C32B2B1DF9C90A78A030C2E /* UIActivityIndicatorView+AFNetworking.h */,
+				6F29F089019E97DA15A47A018F261E41 /* UIActivityIndicatorView+AFNetworking.m */,
+				858AE5BDE74BF98F812368658D23F2D8 /* UIAlertView+AFNetworking.h */,
+				F50529C7C2927A06407AE602338BD9B5 /* UIAlertView+AFNetworking.m */,
+				6EAA9F002723A171A2DD6DDC1384DB61 /* UIButton+AFNetworking.h */,
+				F1864FFF7A8BCE118CD849D2C05DB6BD /* UIButton+AFNetworking.m */,
+				EC7DF0A5DE17D0F410A1986986535D3E /* UIImageView+AFNetworking.h */,
+				8075AD5F1657FD00E2CA287DE2F99371 /* UIImageView+AFNetworking.m */,
+				BF66C923CFD6CC810DEE94E8CB1FD1F5 /* UIKit+AFNetworking.h */,
+				285D29E3DBC8E3577F978070A2F5111D /* UIProgressView+AFNetworking.h */,
+				83CE3215BDD364D1FF5B3F3A559637F4 /* UIProgressView+AFNetworking.m */,
+				1C2923AB69E7163DDE106F51D85C041C /* UIRefreshControl+AFNetworking.h */,
+				EB73A51A292F471633B4B9E8631CFE6B /* UIRefreshControl+AFNetworking.m */,
+				69254E623DA1B7A132B313AAEE741839 /* UIWebView+AFNetworking.h */,
+				6AFD77A8D885D818463120C9981CD444 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		8BD48673EA778A50C102C453331DC6B4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BC897A980DAC8304AFC74D5F54EE33C /* AFOAuth2Manager.xcconfig */,
+				F05781F6B52591E0772BD356A008FFD4 /* AFOAuth2Manager-Private.xcconfig */,
+				EA3927681B7C97FB4F164ECDE0F8614D /* AFOAuth2Manager-dummy.m */,
+				10039593F07AB5C9379074C0AE500BD6 /* AFOAuth2Manager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFOAuth2Manager";
+			sourceTree = "<group>";
+		};
+		92067056D4D9A18DA3072B21DA8AF3BA /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				E14431259F5E98A973F871C99AACF5E1 /* AFNetworking.h */,
+				72750765640C79F6E5565693457BBEF7 /* NSURLConnection */,
+				4F000AC9043201C81B7BF195BA937F58 /* NSURLSession */,
+				59083735B46E202D25242E7BE0986A59 /* Reachability */,
+				101BCEA598D9B3E81D5AC109916575C8 /* Security */,
+				0A61AB1B58765EAE16BD334246A3C9C5 /* Serialization */,
+				06FBC6A9CB5978AED56686604B7F2238 /* Support Files */,
+				85EBA6776B32CA34C1D3C701A8249336 /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		93AB6DD2D32F1BA2FD083DDC4D4646E7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9A9B7210C1C8304CC02D0F2B50C8ACB /* ABMSoundCloudAPI.xcconfig */,
+				663C0CC4349A721AFA248C26F1CD9213 /* ABMSoundCloudAPI-Private.xcconfig */,
+				3909509C9B79DA45AC40A72F167D84CC /* ABMSoundCloudAPI-dummy.m */,
+				DEF551D408EA0BA806D7A29A9C4EF937 /* ABMSoundCloudAPI-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ABMSoundCloudAPI";
+			sourceTree = "<group>";
+		};
+		A125C3007EEA999D47246207D1220C59 /* AFOAuth2Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F3613F95A2677FD95D6E5BE8A832A067 /* AFHTTPRequestSerializer+OAuth2.h */,
+				3CB8CAC00A9DEAC4ACFC9789EFD95267 /* AFHTTPRequestSerializer+OAuth2.m */,
+				3BBAD1B50F7C00097B3C9BB2AE12EF5D /* AFOAuth2Manager.h */,
+				86705579663A555FB62D048203497C70 /* AFOAuth2Manager.m */,
+				8BD48673EA778A50C102C453331DC6B4 /* Support Files */,
+			);
+			path = AFOAuth2Manager;
+			sourceTree = "<group>";
+		};
+		A79D9B3014EB9AED3A8083D64430C0A7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12125D20ECFC342FF854854B5501680C /* ABMSoundCloudAPI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C5E0647160FFD215334C8773D1E5AB0E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C064ABA4C03483697F91214A1740F97 /* Pods-ABMSoundCloudAPI */,
+				EBAEC3C67325D198183F34BE653BE37D /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5DA9078419B9EB677436661D2A6E59B /* libABMSoundCloudAPI.a */,
+				93E25C4ED7562EF0AEFC4640D14524C7 /* libAFNetworking.a */,
+				1313192CBCB9883C9FDE1AF0374B1E75 /* libAFOAuth2Manager.a */,
+				5DC2A8BCB90982CE0796DC38B47BA394 /* libLockbox.a */,
+				CF9BBC23BF1BB2F4D406451BFFEDFF37 /* libPods-ABMSoundCloudAPI.a */,
+				2A681F9B6140D4735925FD7F5050A365 /* libPods-Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D37AC0C78B7771ABD42E83D332113522 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7DD1C1D1EE584AAFBE96E63DC220F3E1 /* SoundCloudLogin.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		E1CB65BBDFAF13CABC0E5E66 /* Pods */ = {
+		D39F297F7432FCFAB7049A1566A95C1A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				BF0404B924154800D25AFEB0 /* AFNetworking */,
-				F73665681FC55F8D43394904 /* AFOAuth2Manager */,
+				A7E4F20D7B1B85196E71504AE9C295E1 /* CoreGraphics.framework */,
+				90DB764127B3513E7C3F261274F666FB /* Foundation.framework */,
+				8107C0FAE0B4670D0F34436AED15A7AC /* MobileCoreServices.framework */,
+				2664EA8AB3B33EE300B42645A420AC94 /* Security.framework */,
+				BA0CAE6197B4A57349F23BAF76F8977C /* SystemConfiguration.framework */,
 			);
-			name = Pods;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		F73665681FC55F8D43394904 /* AFOAuth2Manager */ = {
+		EBAEC3C67325D198183F34BE653BE37D /* Pods-Tests */ = {
 			isa = PBXGroup;
 			children = (
-				8B0EFACCCCBD1FC4DABC6D29 /* AFHTTPRequestSerializer+OAuth2.h */,
-				1AB6369FCC2B62D7F936A78F /* AFHTTPRequestSerializer+OAuth2.m */,
-				9CE819C733E0F78BE98CAC48 /* AFOAuth2Manager.h */,
-				8DFCF34B1A5F6A74A5C29D64 /* AFOAuth2Manager.m */,
-				522D7EF34EDFCC3142A156EE /* Support Files */,
+				14D179DE2EFCB3CD74A5C427796EF2DB /* Pods-Tests-acknowledgements.markdown */,
+				A3B6F48DD59A0467BFB29A3B97457FC0 /* Pods-Tests-acknowledgements.plist */,
+				E6824A831E3FB748D2593DF25EBB4AE5 /* Pods-Tests-dummy.m */,
+				E5AA3A9C63E03557FF889F1AA4AE95B4 /* Pods-Tests-resources.sh */,
+				31EED0D648B78F46FDB9590B40A52D09 /* Pods-Tests.debug.xcconfig */,
+				BAF8C72D0F29B59BA3EECAD3620F2A74 /* Pods-Tests.release.xcconfig */,
 			);
-			path = AFOAuth2Manager;
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		F8181B323C092B0675E3E20C09F82E80 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				27DA15A5FEC888208AFBDF250E04D231 /* API */,
+				1C5DC3108D5AEAE569C925992F360B99 /* Categories */,
+				09888D223A3DFB43E91DA7D1452E2B09 /* Controllers */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		02CF5ED8AB33424B5369E20B /* Headers */ = {
+		1778CE53E24B5941A9A60D066D85C92E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36A450811D817C7D2EB7CC92 /* AFHTTPRequestSerializer+OAuth2.h in Headers */,
-				F5513120781F9A0C722D792A /* AFOAuth2Manager.h in Headers */,
+				832C1B6C0B5FC654FA89965C23EA3A9C /* NSError+APISoundCloud.h in Headers */,
+				1E57B4D8007AD1F7AAED8BB850A4744A /* NSUserDefaults+SoundCloudToken.h in Headers */,
+				83F4329896755E7A27865EF48F201A92 /* SoundCloudLoginWebViewController.h in Headers */,
+				DF1770D5A62E1638C77DB361E2AD6EA1 /* SoundCloudPort.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		255153FCE8EE164E49653A03 /* Headers */ = {
+		1845A25A4977B4FA38EF914815D16D12 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D30AF12B1D5E37A5337565C2 /* AFHTTPRequestOperation.h in Headers */,
-				73C7CFB865D337D2209BF860 /* AFHTTPRequestOperationManager.h in Headers */,
-				F67A2B3168A172B7BBE24225 /* AFHTTPSessionManager.h in Headers */,
-				FFD752858EF033C26A4AF33B /* AFNetworkActivityIndicatorManager.h in Headers */,
-				5689E8278F85887469FA9342 /* AFNetworkReachabilityManager.h in Headers */,
-				02F6F8C40E9AA4F0480403A9 /* AFNetworking.h in Headers */,
-				172AFB60320600D47806C4D8 /* AFSecurityPolicy.h in Headers */,
-				B64D93881E3337CE6D323F35 /* AFURLConnectionOperation.h in Headers */,
-				99027C72894681EF3EC07E41 /* AFURLRequestSerialization.h in Headers */,
-				851EB86245023375E87C6275 /* AFURLResponseSerialization.h in Headers */,
-				CF610251B2BA838098345B38 /* AFURLSessionManager.h in Headers */,
-				D9E8E45BB39D4BFC4B683FB6 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
-				6EA0B09C7960A9559A88ED49 /* UIAlertView+AFNetworking.h in Headers */,
-				44A0C8618712FB122D01C267 /* UIButton+AFNetworking.h in Headers */,
-				1FBB3EC2CA1FAFB4D562AA44 /* UIImageView+AFNetworking.h in Headers */,
-				C8B6A748DBD0E398349F6988 /* UIKit+AFNetworking.h in Headers */,
-				EB412E6E49803483C116EAF3 /* UIProgressView+AFNetworking.h in Headers */,
-				77F7BB0CF9DBF4ACE720F85D /* UIRefreshControl+AFNetworking.h in Headers */,
-				136406B812956D42CF18C113 /* UIWebView+AFNetworking.h in Headers */,
+				9B3AAE408204105745A7A356F58AEDFE /* Lockbox.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45C0CA888A656F34C77C3592 /* Headers */ = {
+		5035457F1EF7534884AC40F3FA628C88 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D436F1987B5699765391F94C /* NSError+APISoundCloud.h in Headers */,
-				79D8FB9C71D9D44BFC196C22 /* NSUserDefaults+SoundCloudToken.h in Headers */,
-				AD1D5FEF768B6653F6CF530F /* SoundCloudLoginWebViewController.h in Headers */,
-				0CFF77E29362410E3FCB65A9 /* SoundCloudPort.h in Headers */,
+				B2EC8A7190FB97E1B0064381EEB8714A /* AFHTTPRequestSerializer+OAuth2.h in Headers */,
+				FBB134542DB8F3046A0AFA0E6B7C2379 /* AFOAuth2Manager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		684AC0EDA7C34A3AD35356E0 /* Headers */ = {
+		FB592ABD34178D4DC0A25D6C7E408D16 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9468008B37E4ABD466986E36 /* AFHTTPRequestOperation.h in Headers */,
-				6BCBF0E6657BDA192C1FF574 /* AFHTTPRequestOperationManager.h in Headers */,
-				95F11E056E8A8CEE0181D04B /* AFHTTPSessionManager.h in Headers */,
-				D962F42F257688F0FB2AB452 /* AFNetworkActivityIndicatorManager.h in Headers */,
-				BC935DB3ED2B9C39ABE7949A /* AFNetworkReachabilityManager.h in Headers */,
-				C1D901DAC58F6EEC9E53D263 /* AFNetworking.h in Headers */,
-				D28B3DB9E8A67F503FB3EE97 /* AFSecurityPolicy.h in Headers */,
-				D1D4B8B89E3A9EA2E6AA40A8 /* AFURLConnectionOperation.h in Headers */,
-				4C2C154E169CD1EBBE6E247E /* AFURLRequestSerialization.h in Headers */,
-				83ED309F3C5B42E6A82E77F7 /* AFURLResponseSerialization.h in Headers */,
-				EDFDA6A8BCF171B639853D0A /* AFURLSessionManager.h in Headers */,
-				CD885D8FFE41125E8FBCC0C6 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
-				A71B6450D876718AB4FF0E7E /* UIAlertView+AFNetworking.h in Headers */,
-				B9EBFBC7D4EF73165FCD2A25 /* UIButton+AFNetworking.h in Headers */,
-				9D0E0A580AF8E6F74C6A3433 /* UIImageView+AFNetworking.h in Headers */,
-				A3982A98C423B952F63E5864 /* UIKit+AFNetworking.h in Headers */,
-				076FE36F588D40882EC1354C /* UIProgressView+AFNetworking.h in Headers */,
-				049A1FBF10C2AD1C223BFAB6 /* UIRefreshControl+AFNetworking.h in Headers */,
-				146A19219A83626028DE61F4 /* UIWebView+AFNetworking.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74B3210D42842D48231D9E43 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2AE6127D679653A5CB281A48 /* NSError+APISoundCloud.h in Headers */,
-				0100DA3626C6F0E557181E15 /* NSUserDefaults+SoundCloudToken.h in Headers */,
-				FBC2675470560030E5BE88CF /* SoundCloudLoginWebViewController.h in Headers */,
-				5739959396DFA5D09446FDD1 /* SoundCloudPort.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C03A3AE1E7BBABF8E1013B40 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7B9560C852A98DA6119814B2 /* AFHTTPRequestSerializer+OAuth2.h in Headers */,
-				C00B271BFDAE97E61583D096 /* AFOAuth2Manager.h in Headers */,
+				81BCC64B959E3167C266152F54917261 /* AFHTTPRequestOperation.h in Headers */,
+				FC96206FCAA4505DA3222F76468B7A53 /* AFHTTPRequestOperationManager.h in Headers */,
+				03BE5F3F94FB72CF45577B50681E2EE6 /* AFHTTPSessionManager.h in Headers */,
+				970FBCE6C0CA565A585B8BD884020A77 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				2388678BDF83B8B694E38BEFBB252DD8 /* AFNetworkReachabilityManager.h in Headers */,
+				4EE42F3E6A5BF5452430B462AE9B99AF /* AFNetworking.h in Headers */,
+				A18D7CCC5BDBEBA740C860C417DBCFD0 /* AFSecurityPolicy.h in Headers */,
+				933150C64CA986D1C7CD0FA25E05FFCA /* AFURLConnectionOperation.h in Headers */,
+				40641C2AD4D5E526CA2629584A2F2C74 /* AFURLRequestSerialization.h in Headers */,
+				13DB41019E9BE0688F191E38651E9C7F /* AFURLResponseSerialization.h in Headers */,
+				F58439FB2A28A4EF3AE1B4AB739B0D94 /* AFURLSessionManager.h in Headers */,
+				8F166C7DF0FFCF5C2F36DB2A1DB62ACE /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				F7E15F4F1A6580A47153016AC0173315 /* UIAlertView+AFNetworking.h in Headers */,
+				E5E0FF8C43194A12CC1134B1F272EC53 /* UIButton+AFNetworking.h in Headers */,
+				4731E89AE53FB56CAA8D2B183E014566 /* UIImageView+AFNetworking.h in Headers */,
+				00F6AEF4B806F026EE8D8E742FD1A246 /* UIKit+AFNetworking.h in Headers */,
+				CF1ACAF2A72055F2F5E8AA6D4BF82E33 /* UIProgressView+AFNetworking.h in Headers */,
+				03E715021BAB5BE38A2B9DF430D0A770 /* UIRefreshControl+AFNetworking.h in Headers */,
+				617C73E9F5BD2ED139C6D142EA808BEA /* UIWebView+AFNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		35D5584865FEEAC50553C614 /* Pods-Tests-ABMSoundCloudAPI */ = {
+		0D139736D08246596E5B5C8A2BCB9EF2 /* ABMSoundCloudAPI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4ECCFC20CAC25008EB233E0E /* Build configuration list for PBXNativeTarget "Pods-Tests-ABMSoundCloudAPI" */;
+			buildConfigurationList = 976CCFB859288F14F614E9C9E9345DD6 /* Build configuration list for PBXNativeTarget "ABMSoundCloudAPI" */;
 			buildPhases = (
-				C3EE74DD91FB48647540D398 /* Sources */,
-				FB6B3FE9F7BD9AA55607D3C2 /* Frameworks */,
-				45C0CA888A656F34C77C3592 /* Headers */,
+				EA36D9C9FE78B91F37B6A3FFC5C96A31 /* Sources */,
+				B80AC2DD26A54936474388225972545D /* Frameworks */,
+				1778CE53E24B5941A9A60D066D85C92E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				579EF6120DAC6062E2E2D9B2 /* PBXTargetDependency */,
-				9BF473259DEFAA5BF4B8F16D /* PBXTargetDependency */,
+				27C3875A57C95FD58F8963F5AE570B2D /* PBXTargetDependency */,
+				DF1E600293947519DC66B21F558B050F /* PBXTargetDependency */,
+				6AE3BF4936C68AC2ABB5AF81C8F20597 /* PBXTargetDependency */,
 			);
-			name = "Pods-Tests-ABMSoundCloudAPI";
-			productName = "Pods-Tests-ABMSoundCloudAPI";
-			productReference = 4F299B75902B59AE9FFAD21F /* libPods-Tests-ABMSoundCloudAPI.a */;
+			name = ABMSoundCloudAPI;
+			productName = ABMSoundCloudAPI;
+			productReference = C5DA9078419B9EB677436661D2A6E59B /* libABMSoundCloudAPI.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		4FC353802E9B1695DF80C686 /* Pods-ABMSoundCloudAPI */ = {
+		3D53FA6031BAA16F6FAA799C1A65A482 /* AFNetworking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E155763B69F8A1993D258113 /* Build configuration list for PBXNativeTarget "Pods-ABMSoundCloudAPI" */;
+			buildConfigurationList = 8B0B3EEDC9ECBD14347CA1ADA938DF73 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
 			buildPhases = (
-				5A6A19E61B282E19F0D35915 /* Sources */,
-				E4CFAF3A75266DE969F71293 /* Frameworks */,
+				E50D12159D3E19A79066100F51D539BB /* Sources */,
+				DF7D616D109C1A29989180E6D1D3065F /* Frameworks */,
+				FB592ABD34178D4DC0A25D6C7E408D16 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5803FCE328DD132B302FFC53 /* PBXTargetDependency */,
-				C449481403A2EBA7F7D20B6F /* PBXTargetDependency */,
-				7B04E85E9CA8CD0E51497267 /* PBXTargetDependency */,
 			);
-			name = "Pods-ABMSoundCloudAPI";
-			productName = "Pods-ABMSoundCloudAPI";
-			productReference = 9FA38336A6BBDA3FEB601ABF /* libPods-ABMSoundCloudAPI.a */;
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = 93E25C4ED7562EF0AEFC4640D14524C7 /* libAFNetworking.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		7103B2AADCFDCA41A304613C /* Pods-Tests-AFOAuth2Manager */ = {
+		5E01E7603D7A1FF064C9ADD3129B26E7 /* Lockbox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 883847BB5494EDEFFD705E4A /* Build configuration list for PBXNativeTarget "Pods-Tests-AFOAuth2Manager" */;
+			buildConfigurationList = D443FF063C13FAD1822C2E0E6FAF7B5C /* Build configuration list for PBXNativeTarget "Lockbox" */;
 			buildPhases = (
-				7DCD6A49AD8322EA5A973E06 /* Sources */,
-				D10BC321CF0B7F30297E4088 /* Frameworks */,
-				02CF5ED8AB33424B5369E20B /* Headers */,
+				D7112127D9FD655D0BAEC3D5C6599331 /* Sources */,
+				12B915DA5944E7084617EB517417C885 /* Frameworks */,
+				1845A25A4977B4FA38EF914815D16D12 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				279EA5B765EFF30F77B60C61 /* PBXTargetDependency */,
 			);
-			name = "Pods-Tests-AFOAuth2Manager";
-			productName = "Pods-Tests-AFOAuth2Manager";
-			productReference = AE042E021D6793139CAF6F90 /* libPods-Tests-AFOAuth2Manager.a */;
+			name = Lockbox;
+			productName = Lockbox;
+			productReference = 5DC2A8BCB90982CE0796DC38B47BA394 /* libLockbox.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		75125D219AE2501820EB354A /* Pods-ABMSoundCloudAPI-AFNetworking */ = {
+		883606CBDD8DE7877CEBA951CF649331 /* AFOAuth2Manager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85774D17B499E6E6828BFEBC /* Build configuration list for PBXNativeTarget "Pods-ABMSoundCloudAPI-AFNetworking" */;
+			buildConfigurationList = E930A3DAABBA0CEFD5F41F3E3AD45F2F /* Build configuration list for PBXNativeTarget "AFOAuth2Manager" */;
 			buildPhases = (
-				15C39DFF0E9F997430D70FC8 /* Sources */,
-				9E102352E30DC7B045CC57F7 /* Frameworks */,
-				684AC0EDA7C34A3AD35356E0 /* Headers */,
+				C8BAE710204C963AE11943FEB1A52062 /* Sources */,
+				B200E1F1E841C898DA44805BD6C692B1 /* Frameworks */,
+				5035457F1EF7534884AC40F3FA628C88 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DC53574267FA9AF83E86FC8EFD98F590 /* PBXTargetDependency */,
 			);
-			name = "Pods-ABMSoundCloudAPI-AFNetworking";
-			productName = "Pods-ABMSoundCloudAPI-AFNetworking";
-			productReference = 56943DE8BADE6002F3F9044C /* libPods-ABMSoundCloudAPI-AFNetworking.a */;
+			name = AFOAuth2Manager;
+			productName = AFOAuth2Manager;
+			productReference = 1313192CBCB9883C9FDE1AF0374B1E75 /* libAFOAuth2Manager.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		A0780DB23D6FA8E0C58A13A0 /* Pods-ABMSoundCloudAPI-AFOAuth2Manager */ = {
+		D900F5815B5B77E124963DFF50DA49DB /* Pods-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C813791BB88566D17E96DD90 /* Build configuration list for PBXNativeTarget "Pods-ABMSoundCloudAPI-AFOAuth2Manager" */;
+			buildConfigurationList = 7DEF87E1E4BE9B3D16D5D1BA1447EFA3 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
 			buildPhases = (
-				C473E0C689139F3937FB8087 /* Sources */,
-				0EB65117799E1F9ACD1C0D37 /* Frameworks */,
-				C03A3AE1E7BBABF8E1013B40 /* Headers */,
+				0D745F15CFB774DBB19B7514B8DF9F9C /* Sources */,
+				2F16FD7F0E1D97CEED391ABB61CBF31A /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				06BB87222847C7DF11A6EFCE /* PBXTargetDependency */,
-			);
-			name = "Pods-ABMSoundCloudAPI-AFOAuth2Manager";
-			productName = "Pods-ABMSoundCloudAPI-AFOAuth2Manager";
-			productReference = E53098270507AF3BE62CAE6B /* libPods-ABMSoundCloudAPI-AFOAuth2Manager.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		D06EBA93D5BAF8291D78AEC2 /* Pods-Tests-AFNetworking */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3850B21B5221B8B1F5D9A570 /* Build configuration list for PBXNativeTarget "Pods-Tests-AFNetworking" */;
-			buildPhases = (
-				1FB8DB0CE59A0084B2AE831D /* Sources */,
-				F6485041E7983F11C5A247C4 /* Frameworks */,
-				255153FCE8EE164E49653A03 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-Tests-AFNetworking";
-			productName = "Pods-Tests-AFNetworking";
-			productReference = EF371975C0B576B987F203BB /* libPods-Tests-AFNetworking.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		D71C6A196190092D92C76AB5 /* Pods-ABMSoundCloudAPI-ABMSoundCloudAPI */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 63D13CD1B3024598B2DD3152 /* Build configuration list for PBXNativeTarget "Pods-ABMSoundCloudAPI-ABMSoundCloudAPI" */;
-			buildPhases = (
-				DE9F302C64E207BCED0E5BEB /* Sources */,
-				338CF786374A83654A536E10 /* Frameworks */,
-				74B3210D42842D48231D9E43 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B9737B06664CAEFA01E100E9 /* PBXTargetDependency */,
-				BD458F31E8EBA07A5FE543A6 /* PBXTargetDependency */,
-			);
-			name = "Pods-ABMSoundCloudAPI-ABMSoundCloudAPI";
-			productName = "Pods-ABMSoundCloudAPI-ABMSoundCloudAPI";
-			productReference = 95710F0E8FD7F60A5440600A /* libPods-ABMSoundCloudAPI-ABMSoundCloudAPI.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		F8CD745B11858AB28113CF66 /* Pods-Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 868E2E697C2984C29B8C0D65 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
-			buildPhases = (
-				E9EA50EE65013B59BDA52E10 /* Sources */,
-				2BBD15F42653BFFE416892EE /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				412CFFC7817E7647EDECA073 /* PBXTargetDependency */,
-				6C684F03C49F5E83E546BD8C /* PBXTargetDependency */,
-				3DD42EB0A1BA0339B82C10BF /* PBXTargetDependency */,
+				D47D35389286BD14026960B543D74C2E /* PBXTargetDependency */,
+				BFDCCDDE680D54278A41B137228A8581 /* PBXTargetDependency */,
+				061F6606897303DD3256D21987A2ED3D /* PBXTargetDependency */,
+				F4C2C0B951FCB317905562701328840C /* PBXTargetDependency */,
 			);
 			name = "Pods-Tests";
 			productName = "Pods-Tests";
-			productReference = 373ADFA01F2D45F42A78B104 /* libPods-Tests.a */;
+			productReference = 2A681F9B6140D4735925FD7F5050A365 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F63AAFB667157F0F968AE545B54E998F /* Pods-ABMSoundCloudAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB185F546F6190745C950880D243F501 /* Build configuration list for PBXNativeTarget "Pods-ABMSoundCloudAPI" */;
+			buildPhases = (
+				8E7EBEECADA854F3C085CE0322D49374 /* Sources */,
+				4852DAFB8DF9B28183F328217EB154DF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				667728D11001E1A7F8145455CF4A07B1 /* PBXTargetDependency */,
+				337F5C9E063C8801E2A8A036A746B7FB /* PBXTargetDependency */,
+				0F0A1052F70C4BBEEEBC6D0E84C6D3AD /* PBXTargetDependency */,
+				71BB1631F07E8F58E081AAF3BAEDD145 /* PBXTargetDependency */,
+			);
+			name = "Pods-ABMSoundCloudAPI";
+			productName = "Pods-ABMSoundCloudAPI";
+			productReference = CF9BBC23BF1BB2F4D406451BFFEDFF37 /* libPods-ABMSoundCloudAPI.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5FEC4782316DF172D2E69B9C /* Project object */ = {
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 			};
-			buildConfigurationList = 49249E02ECC875B6D82606B9 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = DAB2C046F9AA8F966941D760;
-			productRefGroup = 12F470A592C3C5749C79A888 /* Products */;
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4FC353802E9B1695DF80C686 /* Pods-ABMSoundCloudAPI */,
-				D71C6A196190092D92C76AB5 /* Pods-ABMSoundCloudAPI-ABMSoundCloudAPI */,
-				75125D219AE2501820EB354A /* Pods-ABMSoundCloudAPI-AFNetworking */,
-				A0780DB23D6FA8E0C58A13A0 /* Pods-ABMSoundCloudAPI-AFOAuth2Manager */,
-				F8CD745B11858AB28113CF66 /* Pods-Tests */,
-				35D5584865FEEAC50553C614 /* Pods-Tests-ABMSoundCloudAPI */,
-				D06EBA93D5BAF8291D78AEC2 /* Pods-Tests-AFNetworking */,
-				7103B2AADCFDCA41A304613C /* Pods-Tests-AFOAuth2Manager */,
+				0D139736D08246596E5B5C8A2BCB9EF2 /* ABMSoundCloudAPI */,
+				3D53FA6031BAA16F6FAA799C1A65A482 /* AFNetworking */,
+				883606CBDD8DE7877CEBA951CF649331 /* AFOAuth2Manager */,
+				5E01E7603D7A1FF064C9ADD3129B26E7 /* Lockbox */,
+				F63AAFB667157F0F968AE545B54E998F /* Pods-ABMSoundCloudAPI */,
+				D900F5815B5B77E124963DFF50DA49DB /* Pods-Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		15C39DFF0E9F997430D70FC8 /* Sources */ = {
+		0D745F15CFB774DBB19B7514B8DF9F9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D15394B78D58CAD2C1A8C51 /* AFHTTPRequestOperation.m in Sources */,
-				A539C5CDEFED4CCF316FA851 /* AFHTTPRequestOperationManager.m in Sources */,
-				4A3C90F84C91EA9D6B98035E /* AFHTTPSessionManager.m in Sources */,
-				4B2953646E2D00960BF07258 /* AFNetworkActivityIndicatorManager.m in Sources */,
-				892F6CB92BF3ED106016C5F5 /* AFNetworkReachabilityManager.m in Sources */,
-				F8A2E15AD95A169BB6FA2A02 /* AFSecurityPolicy.m in Sources */,
-				2B426161B1D90F74FA0C4363 /* AFURLConnectionOperation.m in Sources */,
-				F51F297456B651D5C24E98C6 /* AFURLRequestSerialization.m in Sources */,
-				7A342B6A7A1EEFA8309D1059 /* AFURLResponseSerialization.m in Sources */,
-				B618BFAEE4817591DB246FB3 /* AFURLSessionManager.m in Sources */,
-				466F360C28CCF65759D75580 /* Pods-ABMSoundCloudAPI-AFNetworking-dummy.m in Sources */,
-				17718C551599B0A73A59EA42 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
-				FBE9834D4728EF89630ED35B /* UIAlertView+AFNetworking.m in Sources */,
-				40C681300F3F6605BBF5AAE8 /* UIButton+AFNetworking.m in Sources */,
-				55717799880494CD8912A02A /* UIImageView+AFNetworking.m in Sources */,
-				7F2CC4D326E56732E0621B5E /* UIProgressView+AFNetworking.m in Sources */,
-				DE34255A47EE1D786FD764C7 /* UIRefreshControl+AFNetworking.m in Sources */,
-				4321DB82E807E174D0801E0F /* UIWebView+AFNetworking.m in Sources */,
+				7403E8DD4115F59222367A113A0652AB /* Pods-Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FB8DB0CE59A0084B2AE831D /* Sources */ = {
+		8E7EBEECADA854F3C085CE0322D49374 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0240A7230579FF44EA1CE52 /* AFHTTPRequestOperation.m in Sources */,
-				77D8E278E6802578246E043E /* AFHTTPRequestOperationManager.m in Sources */,
-				27FC03D7198DA7F28589CE66 /* AFHTTPSessionManager.m in Sources */,
-				4F34085F459B8CEADEE8A796 /* AFNetworkActivityIndicatorManager.m in Sources */,
-				55FA7B5EC2602F360365037F /* AFNetworkReachabilityManager.m in Sources */,
-				ECBEE14DE2D0E3D1256374D7 /* AFSecurityPolicy.m in Sources */,
-				4F5D6EEAA0D0A10A99D2D0E8 /* AFURLConnectionOperation.m in Sources */,
-				67A6A6D71326B95D472E7A4E /* AFURLRequestSerialization.m in Sources */,
-				E3FAB042E82B741A913EFC98 /* AFURLResponseSerialization.m in Sources */,
-				0D5C17B86DC4693777AE0586 /* AFURLSessionManager.m in Sources */,
-				63A5B71D291CC00B99127756 /* Pods-Tests-AFNetworking-dummy.m in Sources */,
-				AEA96F5626B2E8DACDD3B2BC /* UIActivityIndicatorView+AFNetworking.m in Sources */,
-				A3F01502C0421572B348733C /* UIAlertView+AFNetworking.m in Sources */,
-				04B4D3071EC3E652D9541E03 /* UIButton+AFNetworking.m in Sources */,
-				3A9BDC9BC3DF18376F613391 /* UIImageView+AFNetworking.m in Sources */,
-				0904A210AEA89A50A94354D3 /* UIProgressView+AFNetworking.m in Sources */,
-				08F9DC24C5CD19048036AB6A /* UIRefreshControl+AFNetworking.m in Sources */,
-				83BDB9414BF19AB9991FC9F1 /* UIWebView+AFNetworking.m in Sources */,
+				F90BD3F1874D7FDDB8DF08578A3589F6 /* Pods-ABMSoundCloudAPI-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A6A19E61B282E19F0D35915 /* Sources */ = {
+		C8BAE710204C963AE11943FEB1A52062 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1EE01D1B8832B9E3C07D5F5 /* Pods-ABMSoundCloudAPI-dummy.m in Sources */,
+				E599BFDF5739964C2684EEB7CBF6C63F /* AFHTTPRequestSerializer+OAuth2.m in Sources */,
+				0828287AA7D93C3D21BF08F0FCEBF52E /* AFOAuth2Manager-dummy.m in Sources */,
+				2CC558CF1283B2068DF589244C88EC34 /* AFOAuth2Manager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DCD6A49AD8322EA5A973E06 /* Sources */ = {
+		D7112127D9FD655D0BAEC3D5C6599331 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE13202D51EEAD447BC52767 /* AFHTTPRequestSerializer+OAuth2.m in Sources */,
-				5D83B9C1C5B73E2BD337B731 /* AFOAuth2Manager.m in Sources */,
-				05C40B08389FC6AA242ACF00 /* Pods-Tests-AFOAuth2Manager-dummy.m in Sources */,
+				64D865A57708E13F1D7C4C7E376D5D98 /* Lockbox-dummy.m in Sources */,
+				8288E2451166C20821702F37571408B0 /* Lockbox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3EE74DD91FB48647540D398 /* Sources */ = {
+		E50D12159D3E19A79066100F51D539BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B27B95946CE367D8C2AE0BE7 /* NSError+APISoundCloud.m in Sources */,
-				1B0B1C86F2A4E599D581D69C /* NSUserDefaults+SoundCloudToken.m in Sources */,
-				CE5762D54E68CB0410847807 /* Pods-Tests-ABMSoundCloudAPI-dummy.m in Sources */,
-				06B4D324291F70B783004DAF /* SoundCloudLoginWebViewController.m in Sources */,
-				83E419D2866D40262D95BD64 /* SoundCloudPort.m in Sources */,
+				B713AEDB841B59DF90991F69BD303AB4 /* AFHTTPRequestOperation.m in Sources */,
+				3079517FC17E98FA9A1AFED43A297C0B /* AFHTTPRequestOperationManager.m in Sources */,
+				B1348ADBDAA0C8FA2C6A018423159337 /* AFHTTPSessionManager.m in Sources */,
+				949152D1CC9B31701B362B6827E192AB /* AFNetworkActivityIndicatorManager.m in Sources */,
+				63901185FAFAD569B04995087E7DA669 /* AFNetworkReachabilityManager.m in Sources */,
+				A2C8E25BC9E8F627B4F57B5CF594B268 /* AFNetworking-dummy.m in Sources */,
+				174BF01CD38952038DB6F8C27C32049E /* AFSecurityPolicy.m in Sources */,
+				7C7C8F2D67C97209E1131A40F7E5AFAB /* AFURLConnectionOperation.m in Sources */,
+				E25C8E6C096DDF21FBBF550BF2A11411 /* AFURLRequestSerialization.m in Sources */,
+				A2BB40B1565E7AE28BF2186D0AE63FBF /* AFURLResponseSerialization.m in Sources */,
+				456B314F28CB3554956389E3F612E863 /* AFURLSessionManager.m in Sources */,
+				8970FB4A75CB1767AB9041BAA6D46DC3 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				C0E62D9D23D59A969DF78708BC08ECA1 /* UIAlertView+AFNetworking.m in Sources */,
+				E4FF87FE2D5762997100C70C5889B2F9 /* UIButton+AFNetworking.m in Sources */,
+				CC1291AE5792F486C8DB66D6088DCF3B /* UIImageView+AFNetworking.m in Sources */,
+				7435CCA7C7678E81D9011A3A0B6A704C /* UIProgressView+AFNetworking.m in Sources */,
+				5BAAB70C0AE29C525D97BF4E560BA47A /* UIRefreshControl+AFNetworking.m in Sources */,
+				224E1872E51A0EA840916DCCDF345027 /* UIWebView+AFNetworking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C473E0C689139F3937FB8087 /* Sources */ = {
+		EA36D9C9FE78B91F37B6A3FFC5C96A31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0A8E6CC46123E5E49EDDB5 /* AFHTTPRequestSerializer+OAuth2.m in Sources */,
-				3E8CE60A40ED737957C71812 /* AFOAuth2Manager.m in Sources */,
-				3D123F54882955FE3381A65E /* Pods-ABMSoundCloudAPI-AFOAuth2Manager-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE9F302C64E207BCED0E5BEB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E265591DD896DFF1C6072DE5 /* NSError+APISoundCloud.m in Sources */,
-				56B4E81A9F6A1BAF481B1633 /* NSUserDefaults+SoundCloudToken.m in Sources */,
-				F58283183FFEB4450796501F /* Pods-ABMSoundCloudAPI-ABMSoundCloudAPI-dummy.m in Sources */,
-				130212D2FDF23C33ED06EF8A /* SoundCloudLoginWebViewController.m in Sources */,
-				BD1C43C8A20802E141014AAC /* SoundCloudPort.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9EA50EE65013B59BDA52E10 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7D8BC0A2097835DD50711E4A /* Pods-Tests-dummy.m in Sources */,
+				01060C1211634C75C09ADF7AD45BDCD0 /* ABMSoundCloudAPI-dummy.m in Sources */,
+				34925C4A0995918B70B4A58B99E56E17 /* NSError+APISoundCloud.m in Sources */,
+				E7B6F0D579B2214AD836C18308D51610 /* NSUserDefaults+SoundCloudToken.m in Sources */,
+				EC29F347DFA94528FC218B3C988861ED /* SoundCloudLoginWebViewController.m in Sources */,
+				90CEAF9428C057CFFEC18458EC38276E /* SoundCloudPort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		06BB87222847C7DF11A6EFCE /* PBXTargetDependency */ = {
+		061F6606897303DD3256D21987A2ED3D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-ABMSoundCloudAPI-AFNetworking";
-			target = 75125D219AE2501820EB354A /* Pods-ABMSoundCloudAPI-AFNetworking */;
-			targetProxy = C926521AE47B94DD2814FE68 /* PBXContainerItemProxy */;
+			name = AFOAuth2Manager;
+			target = 883606CBDD8DE7877CEBA951CF649331 /* AFOAuth2Manager */;
+			targetProxy = B80937B3189AD9B474F87E4157495491 /* PBXContainerItemProxy */;
 		};
-		279EA5B765EFF30F77B60C61 /* PBXTargetDependency */ = {
+		0F0A1052F70C4BBEEEBC6D0E84C6D3AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Tests-AFNetworking";
-			target = D06EBA93D5BAF8291D78AEC2 /* Pods-Tests-AFNetworking */;
-			targetProxy = E542F90DA028DDC832D673EA /* PBXContainerItemProxy */;
+			name = AFOAuth2Manager;
+			target = 883606CBDD8DE7877CEBA951CF649331 /* AFOAuth2Manager */;
+			targetProxy = E1685E3F9355B68856918B043256842B /* PBXContainerItemProxy */;
 		};
-		3DD42EB0A1BA0339B82C10BF /* PBXTargetDependency */ = {
+		27C3875A57C95FD58F8963F5AE570B2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Tests-AFOAuth2Manager";
-			target = 7103B2AADCFDCA41A304613C /* Pods-Tests-AFOAuth2Manager */;
-			targetProxy = C2568D13C0103CCAB6CA2D71 /* PBXContainerItemProxy */;
+			name = AFNetworking;
+			target = 3D53FA6031BAA16F6FAA799C1A65A482 /* AFNetworking */;
+			targetProxy = 6D8E4C21A528A8D15B0AA6B3AADE17E4 /* PBXContainerItemProxy */;
 		};
-		412CFFC7817E7647EDECA073 /* PBXTargetDependency */ = {
+		337F5C9E063C8801E2A8A036A746B7FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Tests-ABMSoundCloudAPI";
-			target = 35D5584865FEEAC50553C614 /* Pods-Tests-ABMSoundCloudAPI */;
-			targetProxy = A696FC3A7B81A30A40006620 /* PBXContainerItemProxy */;
+			name = AFNetworking;
+			target = 3D53FA6031BAA16F6FAA799C1A65A482 /* AFNetworking */;
+			targetProxy = FC7925ED5068AEBA352066347AC00CBB /* PBXContainerItemProxy */;
 		};
-		579EF6120DAC6062E2E2D9B2 /* PBXTargetDependency */ = {
+		667728D11001E1A7F8145455CF4A07B1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Tests-AFNetworking";
-			target = D06EBA93D5BAF8291D78AEC2 /* Pods-Tests-AFNetworking */;
-			targetProxy = D8F24D349D1812CF3788AFA9 /* PBXContainerItemProxy */;
+			name = ABMSoundCloudAPI;
+			target = 0D139736D08246596E5B5C8A2BCB9EF2 /* ABMSoundCloudAPI */;
+			targetProxy = 7E1D5FA24CAD8683F7BAA54A2EBBA98E /* PBXContainerItemProxy */;
 		};
-		5803FCE328DD132B302FFC53 /* PBXTargetDependency */ = {
+		6AE3BF4936C68AC2ABB5AF81C8F20597 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-ABMSoundCloudAPI-ABMSoundCloudAPI";
-			target = D71C6A196190092D92C76AB5 /* Pods-ABMSoundCloudAPI-ABMSoundCloudAPI */;
-			targetProxy = B0465799137127BD4FDE55D4 /* PBXContainerItemProxy */;
+			name = Lockbox;
+			target = 5E01E7603D7A1FF064C9ADD3129B26E7 /* Lockbox */;
+			targetProxy = 84E1799A8A185C5A83BCE38EF46030AB /* PBXContainerItemProxy */;
 		};
-		6C684F03C49F5E83E546BD8C /* PBXTargetDependency */ = {
+		71BB1631F07E8F58E081AAF3BAEDD145 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Tests-AFNetworking";
-			target = D06EBA93D5BAF8291D78AEC2 /* Pods-Tests-AFNetworking */;
-			targetProxy = BC82EB9B906B10D6485C2CE3 /* PBXContainerItemProxy */;
+			name = Lockbox;
+			target = 5E01E7603D7A1FF064C9ADD3129B26E7 /* Lockbox */;
+			targetProxy = E9D036CBDEE5A4A411788E8FAAC64726 /* PBXContainerItemProxy */;
 		};
-		7B04E85E9CA8CD0E51497267 /* PBXTargetDependency */ = {
+		BFDCCDDE680D54278A41B137228A8581 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-ABMSoundCloudAPI-AFOAuth2Manager";
-			target = A0780DB23D6FA8E0C58A13A0 /* Pods-ABMSoundCloudAPI-AFOAuth2Manager */;
-			targetProxy = AB734EFBF32BED6BD69790BF /* PBXContainerItemProxy */;
+			name = AFNetworking;
+			target = 3D53FA6031BAA16F6FAA799C1A65A482 /* AFNetworking */;
+			targetProxy = 6FDBBD28E5978A6962B8059A0C775FB0 /* PBXContainerItemProxy */;
 		};
-		9BF473259DEFAA5BF4B8F16D /* PBXTargetDependency */ = {
+		D47D35389286BD14026960B543D74C2E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Tests-AFOAuth2Manager";
-			target = 7103B2AADCFDCA41A304613C /* Pods-Tests-AFOAuth2Manager */;
-			targetProxy = 4C2E39D80D9178EF12B3F496 /* PBXContainerItemProxy */;
+			name = ABMSoundCloudAPI;
+			target = 0D139736D08246596E5B5C8A2BCB9EF2 /* ABMSoundCloudAPI */;
+			targetProxy = E9322023CB287D32CEB13602A961DB59 /* PBXContainerItemProxy */;
 		};
-		B9737B06664CAEFA01E100E9 /* PBXTargetDependency */ = {
+		DC53574267FA9AF83E86FC8EFD98F590 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-ABMSoundCloudAPI-AFNetworking";
-			target = 75125D219AE2501820EB354A /* Pods-ABMSoundCloudAPI-AFNetworking */;
-			targetProxy = BC2BD2DE0604B07C5C38AC2A /* PBXContainerItemProxy */;
+			name = AFNetworking;
+			target = 3D53FA6031BAA16F6FAA799C1A65A482 /* AFNetworking */;
+			targetProxy = 5B7D81B8096EF4241C310D6E85C8427B /* PBXContainerItemProxy */;
 		};
-		BD458F31E8EBA07A5FE543A6 /* PBXTargetDependency */ = {
+		DF1E600293947519DC66B21F558B050F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-ABMSoundCloudAPI-AFOAuth2Manager";
-			target = A0780DB23D6FA8E0C58A13A0 /* Pods-ABMSoundCloudAPI-AFOAuth2Manager */;
-			targetProxy = 537B6ED19794031F0D8240B9 /* PBXContainerItemProxy */;
+			name = AFOAuth2Manager;
+			target = 883606CBDD8DE7877CEBA951CF649331 /* AFOAuth2Manager */;
+			targetProxy = C9ABFF395749B46A6EBF0A07DDC4FFD8 /* PBXContainerItemProxy */;
 		};
-		C449481403A2EBA7F7D20B6F /* PBXTargetDependency */ = {
+		F4C2C0B951FCB317905562701328840C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-ABMSoundCloudAPI-AFNetworking";
-			target = 75125D219AE2501820EB354A /* Pods-ABMSoundCloudAPI-AFNetworking */;
-			targetProxy = 1C7578CB5AE354EC233EA60E /* PBXContainerItemProxy */;
+			name = Lockbox;
+			target = 5E01E7603D7A1FF064C9ADD3129B26E7 /* Lockbox */;
+			targetProxy = 17603DDE5BCE08381D22422B94B78536 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0966BDE33C127B2CECA510C7 /* Debug */ = {
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58502408A1FA7469CEA1A4BE /* Pods-Tests-AFOAuth2Manager-Private.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-AFOAuth2Manager/Pods-Tests-AFOAuth2Manager-prefix.pch";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		0C4EFD4A39A11DA957785FE5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45E2DA8E4BA624845A340614 /* Pods-ABMSoundCloudAPI.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		0EB56294360379E8976A3540 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABDA40475438A9F28E0E6C16 /* Pods-ABMSoundCloudAPI-ABMSoundCloudAPI-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-ABMSoundCloudAPI-ABMSoundCloudAPI/Pods-ABMSoundCloudAPI-ABMSoundCloudAPI-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		3508CCC40B27BA5A93793C35 /* Debug */ = {
+		05E0DB4341E0C67807A0EF0F090D8330 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABDA40475438A9F28E0E6C16 /* Pods-ABMSoundCloudAPI-ABMSoundCloudAPI-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-ABMSoundCloudAPI-ABMSoundCloudAPI/Pods-ABMSoundCloudAPI-ABMSoundCloudAPI-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		40BE7369935E19EC8F712605 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8108998EF0A7172B93FFDA6E /* Pods-ABMSoundCloudAPI-AFOAuth2Manager-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-ABMSoundCloudAPI-AFOAuth2Manager/Pods-ABMSoundCloudAPI-AFOAuth2Manager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		4A5C5FE294C8B5C17288F848 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA0F540D1EF0276B91A3FD6C /* Pods-Tests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		5E1A9FBCA7610564CD24563B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8108998EF0A7172B93FFDA6E /* Pods-ABMSoundCloudAPI-AFOAuth2Manager-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-ABMSoundCloudAPI-AFOAuth2Manager/Pods-ABMSoundCloudAPI-AFOAuth2Manager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		6F32AF37FD1C89AF175FC42B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A05A4A08A2DAE979D0455FA /* Pods-Tests.debug.xcconfig */;
+			baseConfigurationReference = 10C24C8B5B75380F55C0B9BE28F47F5E /* Pods-ABMSoundCloudAPI.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -1338,39 +1072,7 @@
 			};
 			name = Debug;
 		};
-		7A64C48C0727F56A6C6A652D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D1F392A34FEF7FAFA81572C /* Pods-ABMSoundCloudAPI.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		8D496690AB72A50F7A26CAF8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A2CEA7CE70490101C5F6B36 /* Pods-Tests-AFNetworking-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-AFNetworking/Pods-Tests-AFNetworking-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		992089206ADD3A3BEAAAB177 /* Debug */ = {
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1409,12 +1111,28 @@
 			};
 			name = Debug;
 		};
-		B018DF5C6A63CBFE8B42914C /* Debug */ = {
+		1065523B8D042D15F1AC280E1D5DB476 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C68BE9EA3A5B69B11686CB2 /* Pods-Tests-ABMSoundCloudAPI-Private.xcconfig */;
+			baseConfigurationReference = DA2B840043FC328FEC6D1CF6D2E68195 /* Pods-ABMSoundCloudAPI.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-ABMSoundCloudAPI/Pods-Tests-ABMSoundCloudAPI-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		251356D9195CD3607E04F7165D9554FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F05781F6B52591E0772BD356A008FFD4 /* AFOAuth2Manager-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFOAuth2Manager/AFOAuth2Manager-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -1425,46 +1143,12 @@
 			};
 			name = Debug;
 		};
-		BE8D09803C010A032D636261 /* Release */ = {
+		266AF4839FCA8B9845C86A86D91FA34B /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C12AB3231CE35145F2FF6838 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58502408A1FA7469CEA1A4BE /* Pods-Tests-AFOAuth2Manager-Private.xcconfig */;
+			baseConfigurationReference = ED475EE0E9015909545A63299CCA0EF3 /* Lockbox-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-AFOAuth2Manager/Pods-Tests-AFOAuth2Manager-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/Lockbox/Lockbox-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -1475,28 +1159,12 @@
 			};
 			name = Release;
 		};
-		C856DDEC99C070B8D592A99A /* Debug */ = {
+		3528F0F96833BB5D9A146EE2317DCE34 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F55178E6F7BD0DB4D03E58E /* Pods-ABMSoundCloudAPI-AFNetworking-Private.xcconfig */;
+			baseConfigurationReference = F05781F6B52591E0772BD356A008FFD4 /* AFOAuth2Manager-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-ABMSoundCloudAPI-AFNetworking/Pods-ABMSoundCloudAPI-AFNetworking-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		D6D60982B64F58FF9BB8026E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C68BE9EA3A5B69B11686CB2 /* Pods-Tests-ABMSoundCloudAPI-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-ABMSoundCloudAPI/Pods-Tests-ABMSoundCloudAPI-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/AFOAuth2Manager/AFOAuth2Manager-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -1507,12 +1175,44 @@
 			};
 			name = Release;
 		};
-		F802869473F9EA666DFDBCF8 /* Debug */ = {
+		3DA2AE54B7F4A88717F75593D1D3BDB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A2CEA7CE70490101C5F6B36 /* Pods-Tests-AFNetworking-Private.xcconfig */;
+			baseConfigurationReference = 31EED0D648B78F46FDB9590B40A52D09 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-AFNetworking/Pods-Tests-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		54724671D9FF6E792AED5C4AB55739F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF8C72D0F29B59BA3EECAD3620F2A74 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8729D4FDECB56EBD331743E38070E797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED475EE0E9015909545A63299CCA0EF3 /* Lockbox-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Lockbox/Lockbox-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -1523,12 +1223,60 @@
 			};
 			name = Debug;
 		};
-		FECC1B4870638E346C50AA60 /* Release */ = {
+		917CAB7439EEE6EFAAB4CF476CAF5AB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F55178E6F7BD0DB4D03E58E /* Pods-ABMSoundCloudAPI-AFNetworking-Private.xcconfig */;
+			baseConfigurationReference = 3538790CC41093006F055FD5D03D97BB /* AFNetworking-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-ABMSoundCloudAPI-AFNetworking/Pods-ABMSoundCloudAPI-AFNetworking-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A72F2CE9D9AF44C911D27DEA2F149BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 663C0CC4349A721AFA248C26F1CD9213 /* ABMSoundCloudAPI-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ABMSoundCloudAPI/ABMSoundCloudAPI-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B45EC51BF38F6DBE6971BCA59F63C9D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 663C0CC4349A721AFA248C26F1CD9213 /* ABMSoundCloudAPI-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ABMSoundCloudAPI/ABMSoundCloudAPI-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F38AE98773B396567B1238A439450EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3538790CC41093006F055FD5D03D97BB /* AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -1542,88 +1290,70 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3850B21B5221B8B1F5D9A570 /* Build configuration list for PBXNativeTarget "Pods-Tests-AFNetworking" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F802869473F9EA666DFDBCF8 /* Debug */,
-				8D496690AB72A50F7A26CAF8 /* Release */,
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49249E02ECC875B6D82606B9 /* Build configuration list for PBXProject "Pods" */ = {
+		7DEF87E1E4BE9B3D16D5D1BA1447EFA3 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				992089206ADD3A3BEAAAB177 /* Debug */,
-				BE8D09803C010A032D636261 /* Release */,
+				3DA2AE54B7F4A88717F75593D1D3BDB6 /* Debug */,
+				54724671D9FF6E792AED5C4AB55739F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4ECCFC20CAC25008EB233E0E /* Build configuration list for PBXNativeTarget "Pods-Tests-ABMSoundCloudAPI" */ = {
+		8B0B3EEDC9ECBD14347CA1ADA938DF73 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B018DF5C6A63CBFE8B42914C /* Debug */,
-				D6D60982B64F58FF9BB8026E /* Release */,
+				917CAB7439EEE6EFAAB4CF476CAF5AB8 /* Debug */,
+				F38AE98773B396567B1238A439450EC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63D13CD1B3024598B2DD3152 /* Build configuration list for PBXNativeTarget "Pods-ABMSoundCloudAPI-ABMSoundCloudAPI" */ = {
+		976CCFB859288F14F614E9C9E9345DD6 /* Build configuration list for PBXNativeTarget "ABMSoundCloudAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3508CCC40B27BA5A93793C35 /* Debug */,
-				0EB56294360379E8976A3540 /* Release */,
+				B45EC51BF38F6DBE6971BCA59F63C9D3 /* Debug */,
+				A72F2CE9D9AF44C911D27DEA2F149BCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85774D17B499E6E6828BFEBC /* Build configuration list for PBXNativeTarget "Pods-ABMSoundCloudAPI-AFNetworking" */ = {
+		D443FF063C13FAD1822C2E0E6FAF7B5C /* Build configuration list for PBXNativeTarget "Lockbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C856DDEC99C070B8D592A99A /* Debug */,
-				FECC1B4870638E346C50AA60 /* Release */,
+				8729D4FDECB56EBD331743E38070E797 /* Debug */,
+				266AF4839FCA8B9845C86A86D91FA34B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		868E2E697C2984C29B8C0D65 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		E930A3DAABBA0CEFD5F41F3E3AD45F2F /* Build configuration list for PBXNativeTarget "AFOAuth2Manager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F32AF37FD1C89AF175FC42B /* Debug */,
-				4A5C5FE294C8B5C17288F848 /* Release */,
+				251356D9195CD3607E04F7165D9554FC /* Debug */,
+				3528F0F96833BB5D9A146EE2317DCE34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		883847BB5494EDEFFD705E4A /* Build configuration list for PBXNativeTarget "Pods-Tests-AFOAuth2Manager" */ = {
+		EB185F546F6190745C950880D243F501 /* Build configuration list for PBXNativeTarget "Pods-ABMSoundCloudAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0966BDE33C127B2CECA510C7 /* Debug */,
-				C12AB3231CE35145F2FF6838 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C813791BB88566D17E96DD90 /* Build configuration list for PBXNativeTarget "Pods-ABMSoundCloudAPI-AFOAuth2Manager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				40BE7369935E19EC8F712605 /* Debug */,
-				5E1A9FBCA7610564CD24563B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E155763B69F8A1993D258113 /* Build configuration list for PBXNativeTarget "Pods-ABMSoundCloudAPI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0C4EFD4A39A11DA957785FE5 /* Debug */,
-				7A64C48C0727F56A6C6A652D /* Release */,
+				05E0DB4341E0C67807A0EF0F090D8330 /* Debug */,
+				1065523B8D042D15F1AC280E1D5DB476 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5FEC4782316DF172D2E69B9C /* Project object */;
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }

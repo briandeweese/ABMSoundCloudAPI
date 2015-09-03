@@ -1,7 +1,8 @@
 PODS:
-  - ABMSoundCloudAPI (0.1.1):
+  - ABMSoundCloudAPI (0.2.0):
     - AFNetworking (~> 2.5)
     - AFOAuth2Manager (~> 2.2)
+    - Lockbox (~> 2.1.0)
   - AFNetworking (2.5.4):
     - AFNetworking/NSURLConnection (= 2.5.4)
     - AFNetworking/NSURLSession (= 2.5.4)
@@ -25,19 +26,22 @@ PODS:
     - AFNetworking/NSURLSession
   - AFOAuth2Manager (2.2.0):
     - AFNetworking/NSURLConnection (~> 2.2)
+  - Lockbox (2.1.0)
 
 DEPENDENCIES:
   - ABMSoundCloudAPI (from `../`)
   - AFNetworking (~> 2.5.0)
   - AFOAuth2Manager (~> 2.2.0)
+  - Lockbox (~> 2.1.0)
 
 EXTERNAL SOURCES:
   ABMSoundCloudAPI:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  ABMSoundCloudAPI: 06c28417788ae8cc74bc512622f5eb04fe52bfe9
+  ABMSoundCloudAPI: 2db02a5261c038fc73a88379700f8eeb57cb93c4
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   AFOAuth2Manager: 952eb62e8fd8022971e64c6e8fe28b9e999224af
+  Lockbox: 16442da35d9d4286966936763be728a931d589c3
 
-COCOAPODS: 0.37.2
+COCOAPODS: 0.38.2

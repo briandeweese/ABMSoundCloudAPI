@@ -10,14 +10,15 @@
 
 #import <AFOAuth2Manager/AFOAuth2Manager.h>
 #import <AFNetworking/AFNetworking.h>
+#import <Lockbox/Lockbox.h>
 
 #import "NSError+APISoundCloud.h"
-#import "NSUserDefaults+soundCloudToken.h"
 
 #import "SoundCloudLoginWebViewController.h"
 
 NSString *SC_API_URL = @"https://api.soundcloud.com";
 NSString *PROVIDER_IDENTIFIER = @"SoundClount_Crendentials";
+NSString *kSCTokenKey = @"sc_key_token";
 
 @interface SoundCloudPort ()
 @property (strong, nonatomic) AFOAuth2Manager *oAuth2Manager;
@@ -61,7 +62,7 @@ NSString *PROVIDER_IDENTIFIER = @"SoundClount_Crendentials";
 
 - (void)handleInvalidTokenWithResult:(void (^)(BOOL success))resultBlock {
     // Check if token doesn't even exist
-    NSString *codeStored = [NSUserDefaults getSoundCloudCode];
+    NSString *codeStored = [Lockbox stringForKey:kSCTokenKey];
     if(codeStored) {
         [self getCredentialsForCode:codeStored withResult:^(BOOL success) {
             resultBlock(success);
@@ -85,7 +86,7 @@ NSString *PROVIDER_IDENTIFIER = @"SoundClount_Crendentials";
 - (void)presentSoundCloudLoginWebWithResult:(void (^)(BOOL result))resultBlock {
     UIViewController *webContainerVC = [SoundCloudLoginWebViewController instantiateWithLoginURL:[self webURLForLogin] redirectURL:self.redirectURL resultBlock:^(BOOL result, NSString *code) {
         if (result) {
-            [NSUserDefaults saveSoundCloudToken:code];
+            [Lockbox setString:code forKey:kSCTokenKey];
         }
         resultBlock(result);
     }];
@@ -105,7 +106,7 @@ NSString *PROVIDER_IDENTIFIER = @"SoundClount_Crendentials";
                             withIdentifier:PROVIDER_IDENTIFIER];
         resultBlock(YES);
     } failure:^(NSError *error) {
-        [NSUserDefaults removeSoundCloudCode];
+        [Lockbox setString:nil forKey:kSCTokenKey];
         [AFOAuthCredential deleteCredentialWithIdentifier:PROVIDER_IDENTIFIER];
         resultBlock(NO);
     }];
